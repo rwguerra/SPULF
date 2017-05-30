@@ -32,3 +32,6 @@ C:\Users\Ricardo Guerra\Dropbox\Informatica Industrial\SPULF\Apresentacao\bin\De
 C:\Users\Ricardo Guerra\Dropbox\Informatica Industrial\SPULF\Apresentacao\bin\Debug\OxyPlot.Extensions.dll
 C:\Users\Ricardo Guerra\Dropbox\Informatica Industrial\SPULF\Apresentacao\bin\Debug\OxyPlot.WindowsForms.dll
 C:\Users\Ricardo Guerra\Dropbox\Informatica Industrial\SPULF\Apresentacao\obj\Debug\Apresentacao.TESTE.resources
+C:\Users\Ricardo Guerra\Source\Repos\SPULF\Apresentacao\bin\Debug\Apresentacao.exe.config
+C:\Users\Ricardo Guerra\Source\Repos\SPULF\Apresentacao\obj\Debug\Apresentacao.exe
+C:\Users\Ricardo Guerra\Source\Repos\SPULF\Apresentacao\obj\Debug\Apresentacao.pdb
