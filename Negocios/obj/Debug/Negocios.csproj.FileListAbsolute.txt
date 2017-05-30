@@ -1,0 +1,10 @@
+C:\Users\Joel Adelaide\Dropbox\Informatica Industrial\SPULF\Negocios\obj\Debug\Negocios.csprojResolveAssemblyReference.cache
+C:\Users\Joel Adelaide\Dropbox\Informatica Industrial\SPULF\Negocios\bin\Debug\Negocios.dll
+C:\Users\Joel Adelaide\Dropbox\Informatica Industrial\SPULF\Negocios\bin\Debug\Negocios.pdb
+C:\Users\Joel Adelaide\Dropbox\Informatica Industrial\SPULF\Negocios\bin\Debug\AForge.dll
+C:\Users\Joel Adelaide\Dropbox\Informatica Industrial\SPULF\Negocios\bin\Debug\AForge.Fuzzy.dll
+C:\Users\Joel Adelaide\Dropbox\Informatica Industrial\SPULF\Negocios\bin\Debug\ObjetoTransferencia.dll
+C:\Users\Joel Adelaide\Dropbox\Informatica Industrial\SPULF\Negocios\bin\Debug\ObjetoTransferencia.pdb
+C:\Users\Joel Adelaide\Dropbox\Informatica Industrial\SPULF\Negocios\obj\Debug\Negocios.csproj.ResolveComReference.cache
+C:\Users\Joel Adelaide\Dropbox\Informatica Industrial\SPULF\Negocios\obj\Debug\Negocios.dll
+C:\Users\Joel Adelaide\Dropbox\Informatica Industrial\SPULF\Negocios\obj\Debug\Negocios.pdb

@@ -1,0 +1,5 @@
+C:\Users\Joel Adelaide\Dropbox\Informatica Industrial\SPULF\AcessoBD\bin\Debug\AcessoBD.dll
+C:\Users\Joel Adelaide\Dropbox\Informatica Industrial\SPULF\AcessoBD\bin\Debug\AcessoBD.pdb
+C:\Users\Joel Adelaide\Dropbox\Informatica Industrial\SPULF\AcessoBD\obj\Debug\AcessoBD.csprojResolveAssemblyReference.cache
+C:\Users\Joel Adelaide\Dropbox\Informatica Industrial\SPULF\AcessoBD\obj\Debug\AcessoBD.dll
+C:\Users\Joel Adelaide\Dropbox\Informatica Industrial\SPULF\AcessoBD\obj\Debug\AcessoBD.pdb
