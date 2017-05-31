@@ -33,18 +33,18 @@ C:\Users\Ricardo Guerra\Dropbox\Informatica Industrial\SPULF\Apresentacao\bin\De
 C:\Users\Ricardo Guerra\Dropbox\Informatica Industrial\SPULF\Apresentacao\bin\Debug\OxyPlot.WindowsForms.dll
 C:\Users\Ricardo Guerra\Dropbox\Informatica Industrial\SPULF\Apresentacao\obj\Debug\Apresentacao.TESTE.resources
 C:\Users\Ricardo Guerra\Source\Repos\SPULF\Apresentacao\bin\Debug\Apresentacao.exe.config
-C:\Users\Ricardo Guerra\Source\Repos\SPULF\Apresentacao\obj\Debug\Apresentacao.exe
-C:\Users\Ricardo Guerra\Source\Repos\SPULF\Apresentacao\obj\Debug\Apresentacao.pdb
 C:\Users\Ricardo Guerra\Source\Repos\SPULF\Apresentacao\bin\Debug\Apresentacao.exe
 C:\Users\Ricardo Guerra\Source\Repos\SPULF\Apresentacao\bin\Debug\Apresentacao.pdb
 C:\Users\Ricardo Guerra\Source\Repos\SPULF\Apresentacao\bin\Debug\OxyPlot.dll
+C:\Users\Ricardo Guerra\Source\Repos\SPULF\Apresentacao\bin\Debug\System.Net.Http.dll
+C:\Users\Ricardo Guerra\Source\Repos\SPULF\Apresentacao\bin\Debug\System.Net.Http.xml
 C:\Users\Ricardo Guerra\Source\Repos\SPULF\Apresentacao\obj\Debug\Apresentacao.csprojResolveAssemblyReference.cache
+C:\Users\Ricardo Guerra\Source\Repos\SPULF\Apresentacao\obj\Debug\Apresentacao.Main.resources
 C:\Users\Ricardo Guerra\Source\Repos\SPULF\Apresentacao\obj\Debug\Apresentacao.Properties.Resources.resources
 C:\Users\Ricardo Guerra\Source\Repos\SPULF\Apresentacao\obj\Debug\Apresentacao.TESTE.resources
 C:\Users\Ricardo Guerra\Source\Repos\SPULF\Apresentacao\obj\Debug\Apresentacao.View_Login.resources
 C:\Users\Ricardo Guerra\Source\Repos\SPULF\Apresentacao\obj\Debug\Apresentacao.ViewCadastro.resources
 C:\Users\Ricardo Guerra\Source\Repos\SPULF\Apresentacao\obj\Debug\Apresentacao.ViewMenu.resources
 C:\Users\Ricardo Guerra\Source\Repos\SPULF\Apresentacao\obj\Debug\Apresentacao.csproj.GenerateResource.Cache
-C:\Users\Ricardo Guerra\Source\Repos\SPULF\Apresentacao\bin\Debug\System.Net.Http.dll
-C:\Users\Ricardo Guerra\Source\Repos\SPULF\Apresentacao\bin\Debug\System.Net.Http.xml
-C:\Users\Ricardo Guerra\Source\Repos\SPULF\Apresentacao\obj\Debug\Apresentacao.Main.resources
+C:\Users\Ricardo Guerra\Source\Repos\SPULF\Apresentacao\obj\Debug\Apresentacao.exe
+C:\Users\Ricardo Guerra\Source\Repos\SPULF\Apresentacao\obj\Debug\Apresentacao.pdb
