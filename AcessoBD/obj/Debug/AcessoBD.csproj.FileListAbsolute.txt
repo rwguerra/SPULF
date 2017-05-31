@@ -3,3 +3,8 @@ C:\Users\Joel Adelaide\Dropbox\Informatica Industrial\SPULF\AcessoBD\bin\Debug\A
 C:\Users\Joel Adelaide\Dropbox\Informatica Industrial\SPULF\AcessoBD\obj\Debug\AcessoBD.csprojResolveAssemblyReference.cache
 C:\Users\Joel Adelaide\Dropbox\Informatica Industrial\SPULF\AcessoBD\obj\Debug\AcessoBD.dll
 C:\Users\Joel Adelaide\Dropbox\Informatica Industrial\SPULF\AcessoBD\obj\Debug\AcessoBD.pdb
+C:\Users\Ricardo Guerra\Source\Repos\SPULF\AcessoBD\bin\Debug\AcessoBD.dll
+C:\Users\Ricardo Guerra\Source\Repos\SPULF\AcessoBD\bin\Debug\AcessoBD.pdb
+C:\Users\Ricardo Guerra\Source\Repos\SPULF\AcessoBD\obj\Debug\AcessoBD.csprojResolveAssemblyReference.cache
+C:\Users\Ricardo Guerra\Source\Repos\SPULF\AcessoBD\obj\Debug\AcessoBD.dll
+C:\Users\Ricardo Guerra\Source\Repos\SPULF\AcessoBD\obj\Debug\AcessoBD.pdb

@@ -1,0 +1,4 @@
+C:\Users\Ricardo Guerra\Source\Repos\SPULF\TESTE\obj\Debug\TESTE.csprojResolveAssemblyReference.cache
+C:\Users\Ricardo Guerra\Source\Repos\SPULF\TESTE\obj\Debug\TESTE.Form1.resources
+C:\Users\Ricardo Guerra\Source\Repos\SPULF\TESTE\obj\Debug\TESTE.Properties.Resources.resources
+C:\Users\Ricardo Guerra\Source\Repos\SPULF\TESTE\obj\Debug\TESTE.csproj.GenerateResource.Cache

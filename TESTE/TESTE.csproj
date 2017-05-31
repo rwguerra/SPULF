@@ -81,16 +81,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Negocios\Negocios.csproj">
-      <Project>{abe3a0a7-53bd-426d-8313-5bbb9870e8a0}</Project>
-      <Name>Negocios</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\ObjetoTransferencia\ObjetoTransferencia.csproj">
-      <Project>{53d541ad-1682-42f9-ab35-47efae165be3}</Project>
-      <Name>ObjetoTransferencia</Name>
-    </ProjectReference>
-  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

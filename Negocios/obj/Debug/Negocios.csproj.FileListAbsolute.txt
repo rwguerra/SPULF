@@ -8,3 +8,7 @@ C:\Users\Joel Adelaide\Dropbox\Informatica Industrial\SPULF\Negocios\bin\Debug\O
 C:\Users\Joel Adelaide\Dropbox\Informatica Industrial\SPULF\Negocios\obj\Debug\Negocios.csproj.ResolveComReference.cache
 C:\Users\Joel Adelaide\Dropbox\Informatica Industrial\SPULF\Negocios\obj\Debug\Negocios.dll
 C:\Users\Joel Adelaide\Dropbox\Informatica Industrial\SPULF\Negocios\obj\Debug\Negocios.pdb
+C:\Users\Ricardo Guerra\Source\Repos\SPULF\Negocios\obj\Debug\Negocios.csprojResolveAssemblyReference.cache
+C:\Users\Ricardo Guerra\Source\Repos\SPULF\Negocios\obj\Debug\Negocios.csproj.ResolveComReference.cache
+C:\Users\Ricardo Guerra\Source\Repos\SPULF\Negocios\obj\Debug\Negocios.dll
+C:\Users\Ricardo Guerra\Source\Repos\SPULF\Negocios\obj\Debug\Negocios.pdb
