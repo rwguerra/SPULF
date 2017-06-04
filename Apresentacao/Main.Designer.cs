@@ -80,6 +80,8 @@
             this.ribbonUpDown1 = new System.Windows.Forms.RibbonUpDown();
             this.ribbonUpDown5 = new System.Windows.Forms.RibbonUpDown();
             this.ribbonMain = new System.Windows.Forms.Ribbon();
+            this.plot = new OxyPlot.WindowsForms.Plot();
+            this.ribbonOrbOptionButton1 = new System.Windows.Forms.RibbonOrbOptionButton();
             this.SuspendLayout();
             // 
             // ribbonOrbMenuItem3
@@ -370,7 +372,7 @@
             this.ribbonMain.QuickAcessToolbar.Items.Add(this.ribbonButton3);
             this.ribbonMain.QuickAcessToolbar.Items.Add(this.ribbonButton4);
             this.ribbonMain.RibbonTabFont = new System.Drawing.Font("Trebuchet MS", 9F);
-            this.ribbonMain.Size = new System.Drawing.Size(1101, 147);
+            this.ribbonMain.Size = new System.Drawing.Size(1130, 147);
             this.ribbonMain.TabIndex = 0;
             this.ribbonMain.Tabs.Add(this.ribbonTab1);
             this.ribbonMain.Tabs.Add(this.ribbonTab2);
@@ -379,13 +381,36 @@
             this.ribbonMain.Text = "ribbon1";
             this.ribbonMain.ThemeColor = System.Windows.Forms.RibbonTheme.Black;
             // 
+            // plot
+            // 
+            this.plot.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.plot.BackColor = System.Drawing.SystemColors.AppWorkspace;
+            this.plot.Location = new System.Drawing.Point(58, 169);
+            this.plot.Name = "plot";
+            this.plot.PanCursor = System.Windows.Forms.Cursors.Hand;
+            this.plot.Size = new System.Drawing.Size(1011, 304);
+            this.plot.TabIndex = 27;
+            this.plot.Text = "plot2";
+            this.plot.ZoomHorizontalCursor = System.Windows.Forms.Cursors.SizeWE;
+            this.plot.ZoomRectangleCursor = System.Windows.Forms.Cursors.SizeNWSE;
+            this.plot.ZoomVerticalCursor = System.Windows.Forms.Cursors.SizeNS;
+            // 
+            // ribbonOrbOptionButton1
+            // 
+            this.ribbonOrbOptionButton1.Image = ((System.Drawing.Image)(resources.GetObject("ribbonOrbOptionButton1.Image")));
+            this.ribbonOrbOptionButton1.SmallImage = ((System.Drawing.Image)(resources.GetObject("ribbonOrbOptionButton1.SmallImage")));
+            this.ribbonOrbOptionButton1.Text = "ribbonOrbOptionButton1";
+            // 
             // Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1101, 421);
+            this.ClientSize = new System.Drawing.Size(1130, 485);
+            this.Controls.Add(this.plot);
             this.Controls.Add(this.ribbonMain);
-            this.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Main";
             this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
             this.Text = "Sistema de Previsão Utilizando Lógica Fuzzy - SPULF";
@@ -448,5 +473,7 @@
         private System.Windows.Forms.RibbonButton ribbonButton10;
         private System.Windows.Forms.RibbonSeparator ribbonSeparator9;
         private System.Windows.Forms.Ribbon ribbonMain;
+        private OxyPlot.WindowsForms.Plot plot;
+        private System.Windows.Forms.RibbonOrbOptionButton ribbonOrbOptionButton1;
     }
 }

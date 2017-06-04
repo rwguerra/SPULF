@@ -48,3 +48,6 @@ C:\Users\Ricardo Guerra\Source\Repos\SPULF\Apresentacao\obj\Debug\Apresentacao.V
 C:\Users\Ricardo Guerra\Source\Repos\SPULF\Apresentacao\obj\Debug\Apresentacao.csproj.GenerateResource.Cache
 C:\Users\Ricardo Guerra\Source\Repos\SPULF\Apresentacao\obj\Debug\Apresentacao.exe
 C:\Users\Ricardo Guerra\Source\Repos\SPULF\Apresentacao\obj\Debug\Apresentacao.pdb
+C:\Users\JOEL-GICA\Source\Repos\SPULF\Apresentacao\bin\Debug\Apresentacao.exe.config
+C:\Users\JOEL-GICA\Source\Repos\SPULF\Apresentacao\obj\Debug\Apresentacao.exe
+C:\Users\JOEL-GICA\Source\Repos\SPULF\Apresentacao\obj\Debug\Apresentacao.pdb
