@@ -14,85 +14,84 @@ namespace Negocios
         private InferenceSystem IS;
         List<VariavelLinguistica> ListaVariaveis;
 
-        public double Previsao(List<Item> lista, Item ItemAPrever, List<VariavelLinguistica> _ListaVariaveis)
+        public double Previsao(List<Item> listaDados, List<VariavelLinguistica> _ListaVariaveis)
         {
             ListaVariaveis = _ListaVariaveis;
 
-            DefinicaoVariaveisLinguisticas(lista);
+            listaDados = quebraDados(listaDados);
 
-            InitFuzzyEngine(lista);
+            DefinicaoVariaveisLinguisticas(listaDados);
 
-            double previsao = DoInference(ItemAPrever);
+            InitFuzzyEngine(listaDados);
+
+            double previsao = DoInference(listaDados[listaDados.Count-1].Variavel1, listaDados[listaDados.Count - 1].Variavel2);
 
             return previsao;
 
         }
 
+        private List<Item> quebraDados(List<Item> listaDados)
+        {
+            List<Item> DadosAtualizados = new List<Item>();
+
+            for (int i = 0; i < listaDados.Count - 2; i++)
+            {
+                Item item = new Item();
+
+                item.Variavel0 = listaDados[i].DadosOriginais;
+                item.Variavel1 = listaDados[i+1].DadosOriginais;
+                item.Variavel2 = listaDados[i+2].DadosOriginais;
+
+
+                DadosAtualizados.Add(item);
+            }
+
+            return DadosAtualizados;
+
+        }
+
+
+
         void InitFuzzyEngine(List<Item> lista)
         {
-            LinguisticVariable Pico = new LinguisticVariable(ListaVariaveis[0].NomeVariavel,
+            LinguisticVariable Variavel0 = new LinguisticVariable(ListaVariaveis[0].NomeVariavel,
                 Convert.ToSingle(ListaVariaveis[0].RangeInicial), Convert.ToSingle(ListaVariaveis[0].RangeFinal));
 
             for (int i = 0; i < ListaVariaveis[0].FuzzySet.Count; i++)
             {
-                Pico.AddLabel(new FuzzySet(i.ToString(), new TrapezoidalFunction(
+                Variavel0.AddLabel(new FuzzySet(i.ToString(), new TrapezoidalFunction(
                     Convert.ToSingle(ListaVariaveis[0].FuzzySet[i].PontoInicial),
                     Convert.ToSingle(ListaVariaveis[0].FuzzySet[i].PontoMedio),
                     Convert.ToSingle(ListaVariaveis[0].FuzzySet[i].PontoFinal))));
             }
 
-            LinguisticVariable Area = new LinguisticVariable(ListaVariaveis[1].NomeVariavel,
-               Convert.ToSingle(ListaVariaveis[1].RangeInicial), Convert.ToSingle(ListaVariaveis[1].RangeFinal));
+            LinguisticVariable Variavel1 = new LinguisticVariable(ListaVariaveis[1].NomeVariavel,
+                Convert.ToSingle(ListaVariaveis[1].RangeInicial), Convert.ToSingle(ListaVariaveis[1].RangeFinal));
 
             for (int i = 0; i < ListaVariaveis[1].FuzzySet.Count; i++)
             {
-                Area.AddLabel(new FuzzySet(i.ToString(), new TrapezoidalFunction(
+                Variavel1.AddLabel(new FuzzySet(i.ToString(), new TrapezoidalFunction(
                     Convert.ToSingle(ListaVariaveis[1].FuzzySet[i].PontoInicial),
                     Convert.ToSingle(ListaVariaveis[1].FuzzySet[i].PontoMedio),
                     Convert.ToSingle(ListaVariaveis[1].FuzzySet[i].PontoFinal))));
             }
 
-            LinguisticVariable v1 = new LinguisticVariable(ListaVariaveis[2].NomeVariavel,
-              Convert.ToSingle(ListaVariaveis[2].RangeInicial), Convert.ToSingle(ListaVariaveis[2].RangeFinal));
+            LinguisticVariable Variavel2 = new LinguisticVariable(ListaVariaveis[2].NomeVariavel,
+                Convert.ToSingle(ListaVariaveis[2].RangeInicial), Convert.ToSingle(ListaVariaveis[2].RangeFinal));
 
             for (int i = 0; i < ListaVariaveis[2].FuzzySet.Count; i++)
             {
-                v1.AddLabel(new FuzzySet(i.ToString(), new TrapezoidalFunction(
+                Variavel2.AddLabel(new FuzzySet(i.ToString(), new TrapezoidalFunction(
                     Convert.ToSingle(ListaVariaveis[2].FuzzySet[i].PontoInicial),
                     Convert.ToSingle(ListaVariaveis[2].FuzzySet[i].PontoMedio),
                     Convert.ToSingle(ListaVariaveis[2].FuzzySet[i].PontoFinal))));
             }
 
-            LinguisticVariable v2 = new LinguisticVariable(ListaVariaveis[3].NomeVariavel,
-           Convert.ToSingle(ListaVariaveis[3].RangeInicial), Convert.ToSingle(ListaVariaveis[3].RangeFinal));
-
-            for (int i = 0; i < ListaVariaveis[3].FuzzySet.Count; i++)
-            {
-                v2.AddLabel(new FuzzySet(i.ToString(), new TrapezoidalFunction(
-                    Convert.ToSingle(ListaVariaveis[3].FuzzySet[i].PontoInicial),
-                    Convert.ToSingle(ListaVariaveis[3].FuzzySet[i].PontoMedio),
-                    Convert.ToSingle(ListaVariaveis[3].FuzzySet[i].PontoFinal))));
-            }
-
-
-            LinguisticVariable Corrente = new LinguisticVariable(ListaVariaveis[4].NomeVariavel,
-               Convert.ToSingle(ListaVariaveis[4].RangeInicial), Convert.ToSingle(ListaVariaveis[4].RangeFinal));
-
-            for (int i = 0; i < ListaVariaveis[4].FuzzySet.Count; i++)
-            {
-                Corrente.AddLabel(new FuzzySet(i.ToString(), new TrapezoidalFunction(
-                    Convert.ToSingle(ListaVariaveis[4].FuzzySet[i].PontoInicial),
-                    Convert.ToSingle(ListaVariaveis[4].FuzzySet[i].PontoMedio),
-                    Convert.ToSingle(ListaVariaveis[4].FuzzySet[i].PontoFinal))));
-            }
-
             // The database
             Database fuzzyDB = new Database();
-            fuzzyDB.AddVariable(Pico);
-            fuzzyDB.AddVariable(Area);
-            fuzzyDB.AddVariable(v1);
-            fuzzyDB.AddVariable(v2);
-            fuzzyDB.AddVariable(Corrente);
+            fuzzyDB.AddVariable(Variavel0);
+            fuzzyDB.AddVariable(Variavel1);
+            fuzzyDB.AddVariable(Variavel2);
 
 
             // Creating the inference system
@@ -108,71 +107,57 @@ namespace Negocios
 
         }
 
-        private double DoInference(Item ItemAPrever)
+        private double DoInference(double V1, double V2)
         {
             // Setting inputs
-            IS.SetInput(ListaVariaveis[0].NomeVariavel, Convert.ToSingle(ItemAPrever.Pico));
-            IS.SetInput(ListaVariaveis[1].NomeVariavel, Convert.ToSingle(ItemAPrever.Area));
-            IS.SetInput(ListaVariaveis[2].NomeVariavel, Convert.ToSingle(ItemAPrever.V1));
-            IS.SetInput(ListaVariaveis[3].NomeVariavel, Convert.ToSingle(ItemAPrever.V2));
+            IS.SetInput(ListaVariaveis[0].NomeVariavel, Convert.ToSingle(V1));
+            IS.SetInput(ListaVariaveis[1].NomeVariavel, Convert.ToSingle(V2));
 
             // Setting outputs
             try
             {
-                double NovaCorrente = IS.Evaluate(ListaVariaveis[4].NomeVariavel);
+                double NewDado = IS.Evaluate(ListaVariaveis[2].NomeVariavel);
 
-                return NovaCorrente;
+                return NewDado;
             }
             catch (Exception)
             {
-                return 0;
+                return V2;
             }
         }
 
-        private void DefinicaoVariaveisLinguisticas(List<Item> lista)
+        private void DefinicaoVariaveisLinguisticas(List<Item> listaDados)
         {
-            List<double> Pico = new List<double>();
-            List<double> Area = new List<double>();
+            List<double> V0 = new List<double>();
             List<double> V1 = new List<double>();
             List<double> V2 = new List<double>();
-            List<double> Corrente = new List<double>();
 
-            foreach (var item in lista)
+            foreach (var item in listaDados)
             {
-                Pico.Add(item.Pico);
-                Area.Add(item.Area);
-                V1.Add(item.V1);
-                V2.Add(item.V2);
-                Corrente.Add(item.Corrente);
+                V0.Add(item.Variavel0);
+                V1.Add(item.Variavel1);
+                V2.Add(item.Variavel2);
             }
 
             //double espaco = (Altura.Max() - Altura.Min()) / (ListaVariaveis[0].QntMS - 1);
 
-            ListaVariaveis[0].RangeInicial = Pico.Min() - ((Pico.Max() - Pico.Min()) / (ListaVariaveis[0].QntMS - 1));
-            ListaVariaveis[0].RangeFinal = Pico.Max() + ((Pico.Max() - Pico.Min()) / (ListaVariaveis[0].QntMS - 1));
-            ListaVariaveis[0].FuzzySet = GerarFuzzySet(Pico.Min(),
-                Pico.Max(), ListaVariaveis[0].QntMS);
+            ListaVariaveis[0].RangeInicial = V0.Min() - ((V0.Max() - V0.Min()) / (ListaVariaveis[0].QntMS - 1));
+            ListaVariaveis[0].RangeFinal = V0.Max() + ((V0.Max() - V0.Min()) / (ListaVariaveis[0].QntMS - 1));
+            ListaVariaveis[0].FuzzySet = GerarFuzzySet(V0.Min(),
+                V0.Max(), ListaVariaveis[0].QntMS);
 
 
-            ListaVariaveis[1].RangeInicial = Area.Min() - ((Area.Max() - Area.Min()) / (ListaVariaveis[1].QntMS - 1));
-            ListaVariaveis[1].RangeFinal = Area.Max() + ((Area.Max() - Area.Min()) / (ListaVariaveis[1].QntMS - 1));
-            ListaVariaveis[1].FuzzySet = GerarFuzzySet(Area.Min(),
-                Area.Max(), ListaVariaveis[1].QntMS);
+            ListaVariaveis[1].RangeInicial = V1.Min() - ((V1.Max() - V1.Min()) / (ListaVariaveis[1].QntMS - 1));
+            ListaVariaveis[1].RangeFinal = V1.Max() + ((V1.Max() - V1.Min()) / (ListaVariaveis[1].QntMS - 1));
+            ListaVariaveis[1].FuzzySet = GerarFuzzySet(V1.Min(),
+                V1.Max(), ListaVariaveis[1].QntMS);
 
-            ListaVariaveis[2].RangeInicial = V1.Min() - ((V1.Max() - V1.Min()) / (ListaVariaveis[2].QntMS - 1));
-            ListaVariaveis[2].RangeFinal = V1.Max() + ((V1.Max() - V1.Min()) / (ListaVariaveis[2].QntMS - 1));
-            ListaVariaveis[2].FuzzySet = GerarFuzzySet(V1.Min(),
-                V1.Max(), ListaVariaveis[2].QntMS);
+            ListaVariaveis[2].RangeInicial = V2.Min() - ((V2.Max() - V2.Min()) / (ListaVariaveis[1].QntMS - 1));
+            ListaVariaveis[2].RangeFinal = V2.Max() + ((V2.Max() - V2.Min()) / (ListaVariaveis[1].QntMS - 1));
+            ListaVariaveis[2].FuzzySet = GerarFuzzySet(V2.Min(),
+                V2.Max(), ListaVariaveis[1].QntMS);
 
-            ListaVariaveis[3].RangeInicial = V2.Min() - ((V2.Max() - V2.Min()) / (ListaVariaveis[3].QntMS - 1));
-            ListaVariaveis[3].RangeFinal = V2.Max() + ((V2.Max() - V2.Min()) / (ListaVariaveis[3].QntMS - 1));
-            ListaVariaveis[3].FuzzySet = GerarFuzzySet(V2.Min(),
-                V2.Max(), ListaVariaveis[3].QntMS);
 
-            ListaVariaveis[4].RangeInicial = Corrente.Min() - ((Corrente.Max() - Corrente.Min()) / (ListaVariaveis[4].QntMS - 1));
-            ListaVariaveis[4].RangeFinal = Corrente.Max() + ((Corrente.Max() - Corrente.Min()) / (ListaVariaveis[4].QntMS - 1));
-            ListaVariaveis[4].FuzzySet = GerarFuzzySet(Corrente.Min(),
-                Corrente.Max(), ListaVariaveis[4].QntMS);
 
         }
 

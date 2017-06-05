@@ -8,8 +8,12 @@ namespace ObjetoTransferencia
 {
     public class Item
     {
+        public double DadosOriginais { get; set; }
         public double Tempo { get; set; }
-        public double Variavel { get; set; }
+        public double Variavel0 { get; set; }
+        public double Variavel1 { get; set; }
+        public double Variavel2 { get; set; }
+
 
     }
 }

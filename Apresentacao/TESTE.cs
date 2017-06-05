@@ -7,7 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-
+using Negocios;
+using ObjetoTransferencia;
 
 namespace Apresentacao
 {
@@ -25,33 +26,49 @@ namespace Apresentacao
 
         private void button2_Click(object sender, EventArgs e)
         {
-            //PrevisaoFuzzy previsaoFuzzy = new PrevisaoFuzzy();
 
-            //List<VariavelLinguistica> _ListaVariaveis = new List<VariavelLinguistica>();
+            // DADOOS
 
-            //VariavelLinguistica V1 = new VariavelLinguistica();
-            //V1.NomeVariavel = "V1";
-            //V1.QntMS = Convert.ToInt16(textBoxMSPico.Text);
-            //_ListaVariaveis.Add(V1);
+            List<Item> listaDados = new List<Item>();
 
-            //VariavelLinguistica V2 = new VariavelLinguistica();
-            //V2.NomeVariavel = "V2";
-            //V2.QntMS = Convert.ToInt16(textBoxMSArea.Text);
-            //_ListaVariaveis.Add(V2);
+            for (int i = 0; i < 100; i++)
+            {
+                Item item = new Item();
+                item.Tempo = i;
+                item.DadosOriginais = i;
 
-            //VariavelLinguistica V3 = new VariavelLinguistica();
-            //V3.NomeVariavel = "V3";
-            //V3.QntMS = Convert.ToInt16(textBoxMSArea.Text);
-            //_ListaVariaveis.Add(V3);
+                listaDados.Add(item);
+            }
+
+            // CONFIGURAÇÃO VARIAVEL LINGUISTICA
+
+            int qntMSVariavel = 10;
+
+            List<VariavelLinguistica> _ListaVariaveis = new List<VariavelLinguistica>();
+
+            VariavelLinguistica V0 = new VariavelLinguistica();
+            V0.NomeVariavel = "Variavel0";
+            V0.QntMS = qntMSVariavel;
+            _ListaVariaveis.Add(V0);
+
+            VariavelLinguistica V1 = new VariavelLinguistica();
+            V1.NomeVariavel = "Variavel1";
+            V1.QntMS = qntMSVariavel;
+            _ListaVariaveis.Add(V1);
+
+            VariavelLinguistica V2 = new VariavelLinguistica();
+            V2.NomeVariavel = "Variavel2";
+            V2.QntMS = qntMSVariavel;
+            _ListaVariaveis.Add(V1);
 
 
-            //Item ItemAPrever = new Item();
-            //ItemAPrever.Pico = Convert.ToDouble(textBoxPico.Text);
-            //ItemAPrever.Area = Convert.ToDouble(textBoxArea.Text);
+            //CONFIGURAÇÃO PREVISÃO
 
-            //double previsao = previsaoFuzzy.Previsao(ListDados, ItemAPrever, _ListaVariaveis);
+            PrevisaoFuzzy previsaoFuzzy = new PrevisaoFuzzy();
 
-            //MessageBox.Show("PREVISÃO: " + previsao);
+            double previsao = previsaoFuzzy.Previsao(listaDados, _ListaVariaveis);
+
         }
+
     }
 }

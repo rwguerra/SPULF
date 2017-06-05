@@ -12,3 +12,7 @@ C:\Users\Ricardo Guerra\Source\Repos\SPULF\Negocios\obj\Debug\Negocios.csprojRes
 C:\Users\Ricardo Guerra\Source\Repos\SPULF\Negocios\obj\Debug\Negocios.csproj.ResolveComReference.cache
 C:\Users\Ricardo Guerra\Source\Repos\SPULF\Negocios\obj\Debug\Negocios.dll
 C:\Users\Ricardo Guerra\Source\Repos\SPULF\Negocios\obj\Debug\Negocios.pdb
+C:\Users\JOEL-GICA\Source\Repos\SPULF\Negocios\obj\Debug\Negocios.csprojResolveAssemblyReference.cache
+C:\Users\JOEL-GICA\Source\Repos\SPULF\Negocios\obj\Debug\Negocios.csproj.ResolveComReference.cache
+C:\Users\JOEL-GICA\Source\Repos\SPULF\Negocios\obj\Debug\Negocios.dll
+C:\Users\JOEL-GICA\Source\Repos\SPULF\Negocios\obj\Debug\Negocios.pdb
