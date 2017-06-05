@@ -1,0 +1,248 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Negocios.Fakes</name>
+    </assembly>
+    <members>
+        <member name="T:Negocios.Fakes.ShimClassErros">
+            <summary>Tipo de correção de Negocios.ClassErros</summary>
+        </member>
+        <member name="M:Negocios.Fakes.ShimClassErros.#ctor">
+            <summary>Inicializa uma nova instância de correção</summary>
+        </member>
+        <member name="M:Negocios.Fakes.ShimClassErros.BehaveAsCurrent">
+            <summary>Atribui o comportamento &apos;Current&apos; para todos os métodos do tipo corrigido</summary>
+        </member>
+        <member name="M:Negocios.Fakes.ShimClassErros.BehaveAsNotImplemented">
+            <summary>Atribui o comportamento &apos;NotImplemented&apos; para todos os métodos do tipo corrigido</summary>
+        </member>
+        <member name="P:Negocios.Fakes.ShimClassErros.Behavior">
+            <summary>Atribui o comportamento para todos os métodos do tipo corrigido</summary>
+        </member>
+        <member name="P:Negocios.Fakes.ShimClassErros.GRMSEListOfDoubleListOfDouble">
+            <summary>Define correção de ClassErros.GRMSE(List`1&lt;Double&gt; Lista1, List`1&lt;Double&gt; Lista2)</summary>
+        </member>
+        <member name="P:Negocios.Fakes.ShimClassErros.MAEListOfDoubleListOfDouble">
+            <summary>Define correção de ClassErros.MAE(List`1&lt;Double&gt; Lista1, List`1&lt;Double&gt; Lista2)</summary>
+        </member>
+        <member name="P:Negocios.Fakes.ShimClassErros.MAPEListOfDoubleListOfDouble">
+            <summary>Define correção de ClassErros.MAPE(List`1&lt;Double&gt; Lista1, List`1&lt;Double&gt; Lista2)</summary>
+        </member>
+        <member name="P:Negocios.Fakes.ShimClassErros.MEListOfDoubleListOfDouble">
+            <summary>Define correção de ClassErros.ME(List`1&lt;Double&gt; Lista1, List`1&lt;Double&gt; Lista2)</summary>
+        </member>
+        <member name="P:Negocios.Fakes.ShimClassErros.MPEListOfDoubleListOfDouble">
+            <summary>Define correção de ClassErros.MPE(List`1&lt;Double&gt; Lista1, List`1&lt;Double&gt; Lista2)</summary>
+        </member>
+        <member name="P:Negocios.Fakes.ShimClassErros.MSEListOfDoubleListOfDouble">
+            <summary>Define correção de ClassErros.MSE(List`1&lt;Double&gt; Lista1, List`1&lt;Double&gt; Lista2)</summary>
+        </member>
+        <member name="P:Negocios.Fakes.ShimClassErros.RMSEListOfDoubleListOfDouble">
+            <summary>Define correção de ClassErros.RMSE(List`1&lt;Double&gt; Lista1, List`1&lt;Double&gt; Lista2)</summary>
+        </member>
+        <member name="T:Negocios.Fakes.ShimClassRegras">
+            <summary>Tipo de correção de Negocios.ClassRegras</summary>
+        </member>
+        <member name="M:Negocios.Fakes.ShimClassRegras.#ctor">
+            <summary>Inicializa uma nova instância de correção</summary>
+        </member>
+        <member name="M:Negocios.Fakes.ShimClassRegras.#ctor(Negocios.ClassRegras)">
+            <summary>Inicializa uma nova correção para a instância determinada</summary>
+        </member>
+        <member name="P:Negocios.Fakes.ShimClassRegras.AgruparRegrasListOfStringListOfStringListOfString">
+            <summary>Define correção de ClassRegras.AgruparRegras(List`1&lt;String&gt; RegrasVariavel0, List`1&lt;String&gt; RegrasVariavel1, List`1&lt;String&gt; RegrasVariavel2)</summary>
+        </member>
+        <member name="T:Negocios.Fakes.ShimClassRegras.AllInstances">
+            <summary>Definir shims para todos os membros de instâncias</summary>
+        </member>
+        <member name="P:Negocios.Fakes.ShimClassRegras.AllInstances.AgruparRegrasListOfStringListOfStringListOfString">
+            <summary>Define correção de ClassRegras.AgruparRegras(List`1&lt;String&gt; RegrasVariavel0, List`1&lt;String&gt; RegrasVariavel1, List`1&lt;String&gt; RegrasVariavel2)</summary>
+        </member>
+        <member name="P:Negocios.Fakes.ShimClassRegras.AllInstances.CalculaPertinenciaDoubleDoubleDouble">
+            <summary>Define correção de ClassRegras.CalculaPertinencia(Double Dado, Double valorInicial, Double valorFinal)</summary>
+        </member>
+        <member name="P:Negocios.Fakes.ShimClassRegras.AllInstances.GerarRegrasListOfItemListOfVariavelLinguistica">
+            <summary>Define correção de ClassRegras.GerarRegras(List`1&lt;Item&gt; lista, List`1&lt;VariavelLinguistica&gt; ListaVariaveis)</summary>
+        </member>
+        <member name="P:Negocios.Fakes.ShimClassRegras.AllInstances.LimparRegrasRepetidasListOfString">
+            <summary>Define correção de ClassRegras.LimparRegrasRepetidas(List`1&lt;String&gt; Regras)</summary>
+        </member>
+        <member name="P:Negocios.Fakes.ShimClassRegras.AllInstances.RetornaRegrasListOfItemListOfVariavelLinguistica">
+            <summary>Define correção de ClassRegras.RetornaRegras(List`1&lt;Item&gt; lista, List`1&lt;VariavelLinguistica&gt; ListaVariaveis)</summary>
+        </member>
+        <member name="M:Negocios.Fakes.ShimClassRegras.BehaveAsCurrent">
+            <summary>Atribui o comportamento &apos;Current&apos; para todos os métodos do tipo corrigido</summary>
+        </member>
+        <member name="M:Negocios.Fakes.ShimClassRegras.BehaveAsNotImplemented">
+            <summary>Atribui o comportamento &apos;NotImplemented&apos; para todos os métodos do tipo corrigido</summary>
+        </member>
+        <member name="P:Negocios.Fakes.ShimClassRegras.Behavior">
+            <summary>Atribui o comportamento para todos os métodos do tipo corrigido</summary>
+        </member>
+        <member name="P:Negocios.Fakes.ShimClassRegras.CalculaPertinenciaDoubleDoubleDouble">
+            <summary>Define correção de ClassRegras.CalculaPertinencia(Double Dado, Double valorInicial, Double valorFinal)</summary>
+        </member>
+        <member name="P:Negocios.Fakes.ShimClassRegras.Constructor">
+            <summary>Define correção de ClassRegras.ClassRegras()</summary>
+        </member>
+        <member name="P:Negocios.Fakes.ShimClassRegras.GerarRegrasListOfItemListOfVariavelLinguistica">
+            <summary>Define correção de ClassRegras.GerarRegras(List`1&lt;Item&gt; lista, List`1&lt;VariavelLinguistica&gt; ListaVariaveis)</summary>
+        </member>
+        <member name="P:Negocios.Fakes.ShimClassRegras.LimparRegrasRepetidasListOfString">
+            <summary>Define correção de ClassRegras.LimparRegrasRepetidas(List`1&lt;String&gt; Regras)</summary>
+        </member>
+        <member name="P:Negocios.Fakes.ShimClassRegras.RetornaRegrasListOfItemListOfVariavelLinguistica">
+            <summary>Define correção de ClassRegras.RetornaRegras(List`1&lt;Item&gt; lista, List`1&lt;VariavelLinguistica&gt; ListaVariaveis)</summary>
+        </member>
+        <member name="T:Negocios.Fakes.ShimExcel">
+            <summary>Tipo de correção de Negocios.Excel</summary>
+        </member>
+        <member name="M:Negocios.Fakes.ShimExcel.#ctor">
+            <summary>Inicializa uma nova instância de correção</summary>
+        </member>
+        <member name="M:Negocios.Fakes.ShimExcel.#ctor(Negocios.Excel)">
+            <summary>Inicializa uma nova correção para a instância determinada</summary>
+        </member>
+        <member name="T:Negocios.Fakes.ShimExcel.AllInstances">
+            <summary>Definir shims para todos os membros de instâncias</summary>
+        </member>
+        <member name="P:Negocios.Fakes.ShimExcel.AllInstances.AtualizarPlanilhaStringDataTableInt32Int32String">
+            <summary>Define correção de Excel.AtualizarPlanilha(String pNomeArquivo, DataTable pDtConteudo, Int32 pLinhaInicial, Int32 pColunaInicial, String DirSalvarComo)</summary>
+        </member>
+        <member name="P:Negocios.Fakes.ShimExcel.AllInstances.CriarExcelStringDataTable">
+            <summary>Define correção de Excel.CriarExcel(String NomeArquivo, DataTable DtConteudo)</summary>
+        </member>
+        <member name="P:Negocios.Fakes.ShimExcel.AtualizarPlanilhaStringDataTableInt32Int32String">
+            <summary>Define correção de Excel.AtualizarPlanilha(String pNomeArquivo, DataTable pDtConteudo, Int32 pLinhaInicial, Int32 pColunaInicial, String DirSalvarComo)</summary>
+        </member>
+        <member name="M:Negocios.Fakes.ShimExcel.BehaveAsCurrent">
+            <summary>Atribui o comportamento &apos;Current&apos; para todos os métodos do tipo corrigido</summary>
+        </member>
+        <member name="M:Negocios.Fakes.ShimExcel.BehaveAsNotImplemented">
+            <summary>Atribui o comportamento &apos;NotImplemented&apos; para todos os métodos do tipo corrigido</summary>
+        </member>
+        <member name="P:Negocios.Fakes.ShimExcel.Behavior">
+            <summary>Atribui o comportamento para todos os métodos do tipo corrigido</summary>
+        </member>
+        <member name="P:Negocios.Fakes.ShimExcel.Constructor">
+            <summary>Define correção de Excel.Excel()</summary>
+        </member>
+        <member name="P:Negocios.Fakes.ShimExcel.CriarExcelStringDataTable">
+            <summary>Define correção de Excel.CriarExcel(String NomeArquivo, DataTable DtConteudo)</summary>
+        </member>
+        <member name="T:Negocios.Fakes.ShimPrevisaoFuzzy">
+            <summary>Tipo de correção de Negocios.PrevisaoFuzzy</summary>
+        </member>
+        <member name="M:Negocios.Fakes.ShimPrevisaoFuzzy.#ctor">
+            <summary>Inicializa uma nova instância de correção</summary>
+        </member>
+        <member name="M:Negocios.Fakes.ShimPrevisaoFuzzy.#ctor(Negocios.PrevisaoFuzzy)">
+            <summary>Inicializa uma nova correção para a instância determinada</summary>
+        </member>
+        <member name="T:Negocios.Fakes.ShimPrevisaoFuzzy.AllInstances">
+            <summary>Definir shims para todos os membros de instâncias</summary>
+        </member>
+        <member name="P:Negocios.Fakes.ShimPrevisaoFuzzy.AllInstances.DefinicaoVariaveisLinguisticasListOfItem">
+            <summary>Define correção de PrevisaoFuzzy.DefinicaoVariaveisLinguisticas(List`1&lt;Item&gt; listaDados)</summary>
+        </member>
+        <member name="P:Negocios.Fakes.ShimPrevisaoFuzzy.AllInstances.DoInferenceDoubleDouble">
+            <summary>Define correção de PrevisaoFuzzy.DoInference(Double V1, Double V2)</summary>
+        </member>
+        <member name="P:Negocios.Fakes.ShimPrevisaoFuzzy.AllInstances.GerarFuzzySetDoubleDoubleInt32">
+            <summary>Define correção de PrevisaoFuzzy.GerarFuzzySet(Double RangeInicial, Double RangeFinal, Int32 QntMS)</summary>
+        </member>
+        <member name="P:Negocios.Fakes.ShimPrevisaoFuzzy.AllInstances.InitFuzzyEngineListOfItem">
+            <summary>Define correção de PrevisaoFuzzy.InitFuzzyEngine(List`1&lt;Item&gt; lista)</summary>
+        </member>
+        <member name="P:Negocios.Fakes.ShimPrevisaoFuzzy.AllInstances.PrevisaoListOfItemListOfVariavelLinguistica">
+            <summary>Define correção de PrevisaoFuzzy.Previsao(List`1&lt;Item&gt; listaDados, List`1&lt;VariavelLinguistica&gt; _ListaVariaveis)</summary>
+        </member>
+        <member name="P:Negocios.Fakes.ShimPrevisaoFuzzy.AllInstances.quebraDadosListOfItem">
+            <summary>Define correção de PrevisaoFuzzy.quebraDados(List`1&lt;Item&gt; listaDados)</summary>
+        </member>
+        <member name="M:Negocios.Fakes.ShimPrevisaoFuzzy.BehaveAsCurrent">
+            <summary>Atribui o comportamento &apos;Current&apos; para todos os métodos do tipo corrigido</summary>
+        </member>
+        <member name="M:Negocios.Fakes.ShimPrevisaoFuzzy.BehaveAsNotImplemented">
+            <summary>Atribui o comportamento &apos;NotImplemented&apos; para todos os métodos do tipo corrigido</summary>
+        </member>
+        <member name="P:Negocios.Fakes.ShimPrevisaoFuzzy.Behavior">
+            <summary>Atribui o comportamento para todos os métodos do tipo corrigido</summary>
+        </member>
+        <member name="P:Negocios.Fakes.ShimPrevisaoFuzzy.Constructor">
+            <summary>Define correção de PrevisaoFuzzy.PrevisaoFuzzy()</summary>
+        </member>
+        <member name="P:Negocios.Fakes.ShimPrevisaoFuzzy.DefinicaoVariaveisLinguisticasListOfItem">
+            <summary>Define correção de PrevisaoFuzzy.DefinicaoVariaveisLinguisticas(List`1&lt;Item&gt; listaDados)</summary>
+        </member>
+        <member name="P:Negocios.Fakes.ShimPrevisaoFuzzy.DoInferenceDoubleDouble">
+            <summary>Define correção de PrevisaoFuzzy.DoInference(Double V1, Double V2)</summary>
+        </member>
+        <member name="P:Negocios.Fakes.ShimPrevisaoFuzzy.GerarFuzzySetDoubleDoubleInt32">
+            <summary>Define correção de PrevisaoFuzzy.GerarFuzzySet(Double RangeInicial, Double RangeFinal, Int32 QntMS)</summary>
+        </member>
+        <member name="P:Negocios.Fakes.ShimPrevisaoFuzzy.InitFuzzyEngineListOfItem">
+            <summary>Define correção de PrevisaoFuzzy.InitFuzzyEngine(List`1&lt;Item&gt; lista)</summary>
+        </member>
+        <member name="P:Negocios.Fakes.ShimPrevisaoFuzzy.PrevisaoListOfItemListOfVariavelLinguistica">
+            <summary>Define correção de PrevisaoFuzzy.Previsao(List`1&lt;Item&gt; listaDados, List`1&lt;VariavelLinguistica&gt; _ListaVariaveis)</summary>
+        </member>
+        <member name="P:Negocios.Fakes.ShimPrevisaoFuzzy.quebraDadosListOfItem">
+            <summary>Define correção de PrevisaoFuzzy.quebraDados(List`1&lt;Item&gt; listaDados)</summary>
+        </member>
+        <member name="T:Negocios.Fakes.StubClassRegras">
+            <summary>Tipo stub de Negocios.ClassRegras</summary>
+        </member>
+        <member name="M:Negocios.Fakes.StubClassRegras.#ctor">
+            <summary>Inicializa uma nova instância</summary>
+        </member>
+        <member name="P:Negocios.Fakes.StubClassRegras.CallBase">
+            <summary>Obtém ou define um valor que indica se o método base deve ser chamado em vez do comportamento de fallback</summary>
+        </member>
+        <member name="M:Negocios.Fakes.StubClassRegras.InitializeStub">
+            <summary>Inicializa uma nova instância do type StubClassRegras</summary>
+        </member>
+        <member name="P:Negocios.Fakes.StubClassRegras.InstanceBehavior">
+            <summary>Obtém ou define o comportamento da instância.</summary>
+        </member>
+        <member name="P:Negocios.Fakes.StubClassRegras.InstanceObserver">
+            <summary>Obtém ou define o observador de instância.</summary>
+        </member>
+        <member name="T:Negocios.Fakes.StubExcel">
+            <summary>Tipo stub de Negocios.Excel</summary>
+        </member>
+        <member name="M:Negocios.Fakes.StubExcel.#ctor">
+            <summary>Inicializa uma nova instância</summary>
+        </member>
+        <member name="P:Negocios.Fakes.StubExcel.CallBase">
+            <summary>Obtém ou define um valor que indica se o método base deve ser chamado em vez do comportamento de fallback</summary>
+        </member>
+        <member name="M:Negocios.Fakes.StubExcel.InitializeStub">
+            <summary>Inicializa uma nova instância do type StubExcel</summary>
+        </member>
+        <member name="P:Negocios.Fakes.StubExcel.InstanceBehavior">
+            <summary>Obtém ou define o comportamento da instância.</summary>
+        </member>
+        <member name="P:Negocios.Fakes.StubExcel.InstanceObserver">
+            <summary>Obtém ou define o observador de instância.</summary>
+        </member>
+        <member name="T:Negocios.Fakes.StubPrevisaoFuzzy">
+            <summary>Tipo stub de Negocios.PrevisaoFuzzy</summary>
+        </member>
+        <member name="M:Negocios.Fakes.StubPrevisaoFuzzy.#ctor">
+            <summary>Inicializa uma nova instância</summary>
+        </member>
+        <member name="P:Negocios.Fakes.StubPrevisaoFuzzy.CallBase">
+            <summary>Obtém ou define um valor que indica se o método base deve ser chamado em vez do comportamento de fallback</summary>
+        </member>
+        <member name="M:Negocios.Fakes.StubPrevisaoFuzzy.InitializeStub">
+            <summary>Inicializa uma nova instância do type StubPrevisaoFuzzy</summary>
+        </member>
+        <member name="P:Negocios.Fakes.StubPrevisaoFuzzy.InstanceBehavior">
+            <summary>Obtém ou define o comportamento da instância.</summary>
+        </member>
+        <member name="P:Negocios.Fakes.StubPrevisaoFuzzy.InstanceObserver">
+            <summary>Obtém ou define o observador de instância.</summary>
+        </member>
+    </members>
+</doc>

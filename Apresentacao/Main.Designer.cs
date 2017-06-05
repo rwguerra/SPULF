@@ -82,6 +82,11 @@
             this.ribbonMain = new System.Windows.Forms.Ribbon();
             this.plot = new OxyPlot.WindowsForms.PlotView();
             this.ribbonOrbOptionButton1 = new System.Windows.Forms.RibbonOrbOptionButton();
+            this.ribbonLabel1 = new System.Windows.Forms.RibbonLabel();
+            this.ribbonLabel2 = new System.Windows.Forms.RibbonLabel();
+            this.ribbonLabel3 = new System.Windows.Forms.RibbonLabel();
+            this.ribbonLabel4 = new System.Windows.Forms.RibbonLabel();
+            this.ribbonLabel5 = new System.Windows.Forms.RibbonLabel();
             this.SuspendLayout();
             // 
             // ribbonOrbMenuItem3
@@ -152,17 +157,26 @@
             // 
             // ribbonTextBox1
             // 
+            this.ribbonTextBox1.LabelWidth = 110;
             this.ribbonTextBox1.Text = "Nome Previsão:";
             this.ribbonTextBox1.TextBoxText = "";
             // 
             // ribbonComboBox1
             // 
+            this.ribbonComboBox1.AllowTextEdit = false;
+            this.ribbonComboBox1.DropDownItems.Add(this.ribbonLabel1);
+            this.ribbonComboBox1.DropDownItems.Add(this.ribbonLabel2);
+            this.ribbonComboBox1.DropDownItems.Add(this.ribbonLabel3);
+            this.ribbonComboBox1.DropDownItems.Add(this.ribbonLabel4);
+            this.ribbonComboBox1.DropDownItems.Add(this.ribbonLabel5);
+            this.ribbonComboBox1.LabelWidth = 110;
             this.ribbonComboBox1.Text = "Série temporal em:";
             this.ribbonComboBox1.TextBoxText = "";
             // 
             // ribbonTextBox2
             // 
-            this.ribbonTextBox2.Text = "Grandeza dos dados:";
+            this.ribbonTextBox2.LabelWidth = 110;
+            this.ribbonTextBox2.Text = "Grandeza:";
             this.ribbonTextBox2.TextBoxText = "";
             // 
             // ribbonPanel3
@@ -190,54 +204,64 @@
             // 
             // ribbonUpDown2
             // 
+            this.ribbonUpDown2.LabelWidth = 80;
             this.ribbonUpDown2.Text = "MS Tempo:";
             this.ribbonUpDown2.TextBoxText = "";
             this.ribbonUpDown2.TextBoxWidth = 50;
+            this.ribbonUpDown2.Value = "";
             // 
             // ribbonUpDown3
             // 
+            this.ribbonUpDown3.LabelWidth = 80;
             this.ribbonUpDown3.Text = "MS Grandeza:";
             this.ribbonUpDown3.TextBoxText = "";
             this.ribbonUpDown3.TextBoxWidth = 50;
             // 
             // ribbonUpDown4
             // 
+            this.ribbonUpDown4.LabelWidth = 80;
             this.ribbonUpDown4.Text = "MOD MS";
             this.ribbonUpDown4.TextBoxText = "";
             this.ribbonUpDown4.TextBoxWidth = 50;
             // 
             // ribbonUpDown8
             // 
+            this.ribbonUpDown8.LabelWidth = 80;
             this.ribbonUpDown8.Text = "MS Tempo";
             this.ribbonUpDown8.TextBoxText = "";
             this.ribbonUpDown8.TextBoxWidth = 50;
             // 
             // ribbonUpDown9
             // 
+            this.ribbonUpDown9.LabelWidth = 80;
             this.ribbonUpDown9.Text = "MS Grandeza";
             this.ribbonUpDown9.TextBoxText = "";
             this.ribbonUpDown9.TextBoxWidth = 50;
             // 
             // ribbonUpDown10
             // 
+            this.ribbonUpDown10.LabelWidth = 80;
             this.ribbonUpDown10.Text = "MOD MS";
             this.ribbonUpDown10.TextBoxText = "";
             this.ribbonUpDown10.TextBoxWidth = 50;
             // 
             // ribbonUpDown11
             // 
+            this.ribbonUpDown11.LabelWidth = 110;
             this.ribbonUpDown11.Text = "Janela de Previsão:";
             this.ribbonUpDown11.TextBoxText = "";
             this.ribbonUpDown11.TextBoxWidth = 50;
             // 
             // ribbonUpDown12
             // 
+            this.ribbonUpDown12.LabelWidth = 110;
             this.ribbonUpDown12.Text = "Config.";
             this.ribbonUpDown12.TextBoxText = "";
             this.ribbonUpDown12.TextBoxWidth = 50;
             // 
             // ribbonUpDown13
             // 
+            this.ribbonUpDown13.LabelWidth = 110;
             this.ribbonUpDown13.Text = "Config.";
             this.ribbonUpDown13.TextBoxText = "";
             this.ribbonUpDown13.TextBoxWidth = 50;
@@ -403,6 +427,27 @@
             this.ribbonOrbOptionButton1.SmallImage = ((System.Drawing.Image)(resources.GetObject("ribbonOrbOptionButton1.SmallImage")));
             this.ribbonOrbOptionButton1.Text = "ribbonOrbOptionButton1";
             // 
+            // ribbonLabel1
+            // 
+            this.ribbonLabel1.Text = "Minutos";
+            // 
+            // ribbonLabel2
+            // 
+            this.ribbonLabel2.Text = "Horas";
+            // 
+            // ribbonLabel3
+            // 
+            this.ribbonLabel3.Text = "Dias";
+            // 
+            // ribbonLabel4
+            // 
+            this.ribbonLabel4.Tag = "";
+            this.ribbonLabel4.Text = "Mes";
+            // 
+            // ribbonLabel5
+            // 
+            this.ribbonLabel5.Text = "Anos";
+            // 
             // Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -475,5 +520,10 @@
         private System.Windows.Forms.Ribbon ribbonMain;
         private OxyPlot.WindowsForms.PlotView plot;
         private System.Windows.Forms.RibbonOrbOptionButton ribbonOrbOptionButton1;
+        private System.Windows.Forms.RibbonLabel ribbonLabel1;
+        private System.Windows.Forms.RibbonLabel ribbonLabel2;
+        private System.Windows.Forms.RibbonLabel ribbonLabel3;
+        private System.Windows.Forms.RibbonLabel ribbonLabel4;
+        private System.Windows.Forms.RibbonLabel ribbonLabel5;
     }
 }
