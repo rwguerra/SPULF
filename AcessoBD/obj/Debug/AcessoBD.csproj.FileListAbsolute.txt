@@ -8,3 +8,8 @@ C:\Users\Ricardo Guerra\Source\Repos\SPULF\AcessoBD\bin\Debug\AcessoBD.pdb
 C:\Users\Ricardo Guerra\Source\Repos\SPULF\AcessoBD\obj\Debug\AcessoBD.csprojResolveAssemblyReference.cache
 C:\Users\Ricardo Guerra\Source\Repos\SPULF\AcessoBD\obj\Debug\AcessoBD.dll
 C:\Users\Ricardo Guerra\Source\Repos\SPULF\AcessoBD\obj\Debug\AcessoBD.pdb
+C:\Users\JOEL-GICA\Source\Repos\SPULF\AcessoBD\bin\Debug\AcessoBD.dll
+C:\Users\JOEL-GICA\Source\Repos\SPULF\AcessoBD\bin\Debug\AcessoBD.pdb
+C:\Users\JOEL-GICA\Source\Repos\SPULF\AcessoBD\obj\Debug\AcessoBD.csprojResolveAssemblyReference.cache
+C:\Users\JOEL-GICA\Source\Repos\SPULF\AcessoBD\obj\Debug\AcessoBD.dll
+C:\Users\JOEL-GICA\Source\Repos\SPULF\AcessoBD\obj\Debug\AcessoBD.pdb

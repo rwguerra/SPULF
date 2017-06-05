@@ -16,3 +16,9 @@ C:\Users\JOEL-GICA\Source\Repos\SPULF\Negocios\obj\Debug\Negocios.csprojResolveA
 C:\Users\JOEL-GICA\Source\Repos\SPULF\Negocios\obj\Debug\Negocios.csproj.ResolveComReference.cache
 C:\Users\JOEL-GICA\Source\Repos\SPULF\Negocios\obj\Debug\Negocios.dll
 C:\Users\JOEL-GICA\Source\Repos\SPULF\Negocios\obj\Debug\Negocios.pdb
+C:\Users\JOEL-GICA\Source\Repos\SPULF\Negocios\bin\Debug\Negocios.dll
+C:\Users\JOEL-GICA\Source\Repos\SPULF\Negocios\bin\Debug\Negocios.pdb
+C:\Users\JOEL-GICA\Source\Repos\SPULF\Negocios\bin\Debug\AForge.dll
+C:\Users\JOEL-GICA\Source\Repos\SPULF\Negocios\bin\Debug\AForge.Fuzzy.dll
+C:\Users\JOEL-GICA\Source\Repos\SPULF\Negocios\bin\Debug\ObjetoTransferencia.dll
+C:\Users\JOEL-GICA\Source\Repos\SPULF\Negocios\bin\Debug\ObjetoTransferencia.pdb

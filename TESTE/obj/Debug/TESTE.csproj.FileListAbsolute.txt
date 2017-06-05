@@ -13,3 +13,18 @@ C:\Users\Ricardo Guerra\Source\Repos\SPULF\TESTE\obj\Debug\TESTE.Properties.Reso
 C:\Users\Ricardo Guerra\Source\Repos\SPULF\TESTE\obj\Debug\TESTE.csproj.GenerateResource.Cache
 C:\Users\Ricardo Guerra\Source\Repos\SPULF\TESTE\obj\Debug\TESTE.exe
 C:\Users\Ricardo Guerra\Source\Repos\SPULF\TESTE\obj\Debug\TESTE.pdb
+C:\Users\JOEL-GICA\Source\Repos\SPULF\TESTE\bin\Debug\TESTE.exe.config
+C:\Users\JOEL-GICA\Source\Repos\SPULF\TESTE\bin\Debug\TESTE.exe
+C:\Users\JOEL-GICA\Source\Repos\SPULF\TESTE\bin\Debug\TESTE.pdb
+C:\Users\JOEL-GICA\Source\Repos\SPULF\TESTE\bin\Debug\Negocios.dll
+C:\Users\JOEL-GICA\Source\Repos\SPULF\TESTE\bin\Debug\ObjetoTransferencia.dll
+C:\Users\JOEL-GICA\Source\Repos\SPULF\TESTE\bin\Debug\AForge.Fuzzy.dll
+C:\Users\JOEL-GICA\Source\Repos\SPULF\TESTE\bin\Debug\AForge.dll
+C:\Users\JOEL-GICA\Source\Repos\SPULF\TESTE\bin\Debug\Negocios.pdb
+C:\Users\JOEL-GICA\Source\Repos\SPULF\TESTE\bin\Debug\ObjetoTransferencia.pdb
+C:\Users\JOEL-GICA\Source\Repos\SPULF\TESTE\obj\Debug\TESTE.csprojResolveAssemblyReference.cache
+C:\Users\JOEL-GICA\Source\Repos\SPULF\TESTE\obj\Debug\TESTE.Form1.resources
+C:\Users\JOEL-GICA\Source\Repos\SPULF\TESTE\obj\Debug\TESTE.Properties.Resources.resources
+C:\Users\JOEL-GICA\Source\Repos\SPULF\TESTE\obj\Debug\TESTE.csproj.GenerateResource.Cache
+C:\Users\JOEL-GICA\Source\Repos\SPULF\TESTE\obj\Debug\TESTE.exe
+C:\Users\JOEL-GICA\Source\Repos\SPULF\TESTE\obj\Debug\TESTE.pdb

@@ -80,7 +80,7 @@
             this.ribbonUpDown1 = new System.Windows.Forms.RibbonUpDown();
             this.ribbonUpDown5 = new System.Windows.Forms.RibbonUpDown();
             this.ribbonMain = new System.Windows.Forms.Ribbon();
-            this.plot = new OxyPlot.WindowsForms.Plot();
+            this.plot = new OxyPlot.WindowsForms.PlotView();
             this.ribbonOrbOptionButton1 = new System.Windows.Forms.RibbonOrbOptionButton();
             this.SuspendLayout();
             // 
@@ -473,7 +473,7 @@
         private System.Windows.Forms.RibbonButton ribbonButton10;
         private System.Windows.Forms.RibbonSeparator ribbonSeparator9;
         private System.Windows.Forms.Ribbon ribbonMain;
-        private OxyPlot.WindowsForms.Plot plot;
+        private OxyPlot.WindowsForms.PlotView plot;
         private System.Windows.Forms.RibbonOrbOptionButton ribbonOrbOptionButton1;
     }
 }

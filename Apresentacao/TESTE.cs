@@ -59,7 +59,7 @@ namespace Apresentacao
             VariavelLinguistica V2 = new VariavelLinguistica();
             V2.NomeVariavel = "Variavel2";
             V2.QntMS = qntMSVariavel;
-            _ListaVariaveis.Add(V1);
+            _ListaVariaveis.Add(V2);
 
 
             //CONFIGURAÇÃO PREVISÃO
