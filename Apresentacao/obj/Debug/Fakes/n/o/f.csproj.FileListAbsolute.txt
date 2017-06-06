@@ -36,3 +36,5 @@ C:\Users\Joel Adelaide\Source\Repos\SPULF\Apresentacao\obj\Debug\Fakes\n\o\Negoc
 C:\Users\Joel Adelaide\Source\Repos\SPULF\Apresentacao\obj\Debug\Fakes\n\o\Negocios.Fakes.pdb
 C:\Users\Joel Adelaide\Source\Repos\SPULF\Apresentacao\obj\Debug\Fakes\n\b\AcessoBD.dll
 C:\Users\Joel Adelaide\Source\Repos\SPULF\Apresentacao\obj\Debug\Fakes\n\b\AcessoBD.pdb
+C:\Users\Ricardo Guerra\Source\Repos\SPULF2\Apresentacao\obj\Debug\Fakes\n\b\AcessoBD.dll
+C:\Users\Ricardo Guerra\Source\Repos\SPULF2\Apresentacao\obj\Debug\Fakes\n\b\AcessoBD.pdb

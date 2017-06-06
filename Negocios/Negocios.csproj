@@ -48,7 +48,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ClassBDPrevisoes.cs" />
     <Compile Include="ClassErros.cs" />
     <Compile Include="ClassLogin.cs" />
     <Compile Include="ClassRegras.cs" />

@@ -4,30 +4,6 @@
         <name>Negocios.Fakes</name>
     </assembly>
     <members>
-        <member name="T:Negocios.Fakes.ShimClassBDPrevisoes">
-            <summary>Tipo de correção de Negocios.ClassBDPrevisoes</summary>
-        </member>
-        <member name="M:Negocios.Fakes.ShimClassBDPrevisoes.#ctor">
-            <summary>Inicializa uma nova instância de correção</summary>
-        </member>
-        <member name="M:Negocios.Fakes.ShimClassBDPrevisoes.#ctor(Negocios.ClassBDPrevisoes)">
-            <summary>Inicializa uma nova correção para a instância determinada</summary>
-        </member>
-        <member name="T:Negocios.Fakes.ShimClassBDPrevisoes.AllInstances">
-            <summary>Definir shims para todos os membros de instâncias</summary>
-        </member>
-        <member name="M:Negocios.Fakes.ShimClassBDPrevisoes.BehaveAsCurrent">
-            <summary>Atribui o comportamento &apos;Current&apos; para todos os métodos do tipo corrigido</summary>
-        </member>
-        <member name="M:Negocios.Fakes.ShimClassBDPrevisoes.BehaveAsNotImplemented">
-            <summary>Atribui o comportamento &apos;NotImplemented&apos; para todos os métodos do tipo corrigido</summary>
-        </member>
-        <member name="P:Negocios.Fakes.ShimClassBDPrevisoes.Behavior">
-            <summary>Atribui o comportamento para todos os métodos do tipo corrigido</summary>
-        </member>
-        <member name="P:Negocios.Fakes.ShimClassBDPrevisoes.Constructor">
-            <summary>Define correção de ClassBDPrevisoes.ClassBDPrevisoes()</summary>
-        </member>
         <member name="T:Negocios.Fakes.ShimClassErros">
             <summary>Tipo de correção de Negocios.ClassErros</summary>
         </member>
@@ -249,24 +225,6 @@
         </member>
         <member name="P:Negocios.Fakes.ShimPrevisaoFuzzy.quebraDadosListOfItem">
             <summary>Define correção de PrevisaoFuzzy.quebraDados(List`1&lt;Item&gt; listaDados)</summary>
-        </member>
-        <member name="T:Negocios.Fakes.StubClassBDPrevisoes">
-            <summary>Tipo stub de Negocios.ClassBDPrevisoes</summary>
-        </member>
-        <member name="M:Negocios.Fakes.StubClassBDPrevisoes.#ctor">
-            <summary>Inicializa uma nova instância</summary>
-        </member>
-        <member name="P:Negocios.Fakes.StubClassBDPrevisoes.CallBase">
-            <summary>Obtém ou define um valor que indica se o método base deve ser chamado em vez do comportamento de fallback</summary>
-        </member>
-        <member name="M:Negocios.Fakes.StubClassBDPrevisoes.InitializeStub">
-            <summary>Inicializa uma nova instância do type StubClassBDPrevisoes</summary>
-        </member>
-        <member name="P:Negocios.Fakes.StubClassBDPrevisoes.InstanceBehavior">
-            <summary>Obtém ou define o comportamento da instância.</summary>
-        </member>
-        <member name="P:Negocios.Fakes.StubClassBDPrevisoes.InstanceObserver">
-            <summary>Obtém ou define o observador de instância.</summary>
         </member>
         <member name="T:Negocios.Fakes.StubClassLogin">
             <summary>Tipo stub de Negocios.ClassLogin</summary>

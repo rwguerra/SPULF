@@ -209,3 +209,9 @@ C:\Users\Joel Adelaide\Source\Repos\SPULF\Apresentacao\bin\Debug\AcessoBD.pdb
 C:\Users\Joel Adelaide\Source\Repos\SPULF\Apresentacao\bin\Debug\pt-BR\Microsoft.QualityTools.Testing.Fakes.resources.dll
 C:\Users\Joel Adelaide\Source\Repos\SPULF\Apresentacao\obj\Debug\Fakes\n\b\AcessoBD.dll
 C:\Users\Joel Adelaide\Source\Repos\SPULF\Apresentacao\obj\Debug\Fakes\n\b\AcessoBD.pdb
+C:\Users\Ricardo Guerra\Source\Repos\SPULF2\Apresentacao\bin\Debug\AcessoBD.dll
+C:\Users\Ricardo Guerra\Source\Repos\SPULF2\Apresentacao\bin\Debug\AcessoBD.pdb
+C:\Users\Ricardo Guerra\Source\Repos\SPULF2\Apresentacao\obj\Debug\Fakes\n\b\AcessoBD.dll
+C:\Users\Ricardo Guerra\Source\Repos\SPULF2\Apresentacao\obj\Debug\Fakes\n\b\AcessoBD.pdb
+C:\Users\Ricardo Guerra\Source\Repos\SPULF2\Apresentacao\bin\Debug\Negocios.Fakes.fakesconfig
+C:\Users\Ricardo Guerra\Source\Repos\SPULF2\Apresentacao\bin\Debug\AcessoBD.dll.config
