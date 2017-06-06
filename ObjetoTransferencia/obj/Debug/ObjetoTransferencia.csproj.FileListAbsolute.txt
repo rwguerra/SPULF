@@ -18,3 +18,8 @@ C:\Users\Ricardo Guerra\Source\Repos\SPULF2\ObjetoTransferencia\bin\Debug\Objeto
 C:\Users\Ricardo Guerra\Source\Repos\SPULF2\ObjetoTransferencia\obj\Debug\ObjetoTransferencia.csprojResolveAssemblyReference.cache
 C:\Users\Ricardo Guerra\Source\Repos\SPULF2\ObjetoTransferencia\obj\Debug\ObjetoTransferencia.dll
 C:\Users\Ricardo Guerra\Source\Repos\SPULF2\ObjetoTransferencia\obj\Debug\ObjetoTransferencia.pdb
+C:\Users\Joel Adelaide\Source\Repos\SPULF\ObjetoTransferencia\bin\Debug\ObjetoTransferencia.dll
+C:\Users\Joel Adelaide\Source\Repos\SPULF\ObjetoTransferencia\bin\Debug\ObjetoTransferencia.pdb
+C:\Users\Joel Adelaide\Source\Repos\SPULF\ObjetoTransferencia\obj\Debug\ObjetoTransferencia.csprojResolveAssemblyReference.cache
+C:\Users\Joel Adelaide\Source\Repos\SPULF\ObjetoTransferencia\obj\Debug\ObjetoTransferencia.dll
+C:\Users\Joel Adelaide\Source\Repos\SPULF\ObjetoTransferencia\obj\Debug\ObjetoTransferencia.pdb

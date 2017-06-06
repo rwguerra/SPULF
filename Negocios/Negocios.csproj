@@ -48,13 +48,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ClassBDPrevisoes.cs" />
     <Compile Include="ClassErros.cs" />
+    <Compile Include="ClassLogin.cs" />
     <Compile Include="ClassRegras.cs" />
     <Compile Include="Excel.cs" />
     <Compile Include="PrevisaoFuzzy.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\AcessoBD\AcessoBD.csproj">
+      <Project>{68d33f34-aa6b-45c1-9afe-e4397d71aac6}</Project>
+      <Name>AcessoBD</Name>
+    </ProjectReference>
     <ProjectReference Include="..\ObjetoTransferencia\ObjetoTransferencia.csproj">
       <Project>{53d541ad-1682-42f9-ab35-47efae165be3}</Project>
       <Name>ObjetoTransferencia</Name>

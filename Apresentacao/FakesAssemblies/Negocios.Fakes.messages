@@ -1,37 +1,37 @@
-C:\Users\Ricardo Guerra\Source\Repos\SPULF2\Apresentacao\Fakes\Negocios.fakes : warning : Não é possível gerar stub para Negocios.ClassErros: o tipo está lacrado.
-C:\Users\Ricardo Guerra\Source\Repos\SPULF2\Apresentacao\Fakes\Negocios.fakes : warning : Não é possível gerar stub para Microsoft.Office.Interop.Excel.AppEvents: o tipo é gerado pelo compilador.
-C:\Users\Ricardo Guerra\Source\Repos\SPULF2\Apresentacao\Fakes\Negocios.fakes : warning : Não é possível gerar stub para Microsoft.Office.Interop.Excel.AppEvents_Event: o tipo é gerado pelo compilador.
-C:\Users\Ricardo Guerra\Source\Repos\SPULF2\Apresentacao\Fakes\Negocios.fakes : warning : Não é possível gerar stub para Microsoft.Office.Interop.Excel.Application: o tipo é gerado pelo compilador.
-C:\Users\Ricardo Guerra\Source\Repos\SPULF2\Apresentacao\Fakes\Negocios.fakes : warning : Não é possível gerar stub para Microsoft.Office.Interop.Excel.DocEvents: o tipo é gerado pelo compilador.
-C:\Users\Ricardo Guerra\Source\Repos\SPULF2\Apresentacao\Fakes\Negocios.fakes : warning : Não é possível gerar stub para Microsoft.Office.Interop.Excel.DocEvents_Event: o tipo é gerado pelo compilador.
-C:\Users\Ricardo Guerra\Source\Repos\SPULF2\Apresentacao\Fakes\Negocios.fakes : warning : Não é possível gerar stub para Microsoft.Office.Interop.Excel.Range: o tipo é gerado pelo compilador.
-C:\Users\Ricardo Guerra\Source\Repos\SPULF2\Apresentacao\Fakes\Negocios.fakes : warning : Não é possível gerar stub para Microsoft.Office.Interop.Excel.Sheets: o tipo é gerado pelo compilador.
-C:\Users\Ricardo Guerra\Source\Repos\SPULF2\Apresentacao\Fakes\Negocios.fakes : warning : Não é possível gerar stub para Microsoft.Office.Interop.Excel.Workbook: o tipo é gerado pelo compilador.
-C:\Users\Ricardo Guerra\Source\Repos\SPULF2\Apresentacao\Fakes\Negocios.fakes : warning : Não é possível gerar stub para Microsoft.Office.Interop.Excel.WorkbookEvents: o tipo é gerado pelo compilador.
-C:\Users\Ricardo Guerra\Source\Repos\SPULF2\Apresentacao\Fakes\Negocios.fakes : warning : Não é possível gerar stub para Microsoft.Office.Interop.Excel.WorkbookEvents_Event: o tipo é gerado pelo compilador.
-C:\Users\Ricardo Guerra\Source\Repos\SPULF2\Apresentacao\Fakes\Negocios.fakes : warning : Não é possível gerar stub para Microsoft.Office.Interop.Excel.Workbooks: o tipo é gerado pelo compilador.
-C:\Users\Ricardo Guerra\Source\Repos\SPULF2\Apresentacao\Fakes\Negocios.fakes : warning : Não é possível gerar stub para Microsoft.Office.Interop.Excel.Worksheet: o tipo é gerado pelo compilador.
-C:\Users\Ricardo Guerra\Source\Repos\SPULF2\Apresentacao\Fakes\Negocios.fakes : warning : Não é possível gerar stub para Microsoft.Office.Interop.Excel.XlFileFormat: o tipo é um tipo de valor.
-C:\Users\Ricardo Guerra\Source\Repos\SPULF2\Apresentacao\Fakes\Negocios.fakes : warning : Não é possível gerar stub para Microsoft.Office.Interop.Excel.XlSaveAsAccessMode: o tipo é um tipo de valor.
-C:\Users\Ricardo Guerra\Source\Repos\SPULF2\Apresentacao\Fakes\Negocios.fakes : warning : Não é possível gerar stub para Microsoft.Office.Interop.Excel._Application: o tipo é gerado pelo compilador.
-C:\Users\Ricardo Guerra\Source\Repos\SPULF2\Apresentacao\Fakes\Negocios.fakes : warning : Não é possível gerar stub para Microsoft.Office.Interop.Excel._Workbook: o tipo é gerado pelo compilador.
-C:\Users\Ricardo Guerra\Source\Repos\SPULF2\Apresentacao\Fakes\Negocios.fakes : warning : Não é possível gerar stub para Microsoft.Office.Interop.Excel._Worksheet: o tipo é gerado pelo compilador.
-C:\Users\Ricardo Guerra\Source\Repos\SPULF2\Apresentacao\Fakes\Negocios.fakes : warning : Não é possível gerar correção para Negocios.Excel+<>o__0: não há suporte para o tipo devido a limitações internas.
-C:\Users\Ricardo Guerra\Source\Repos\SPULF2\Apresentacao\Fakes\Negocios.fakes : warning : Não é possível gerar correção para Negocios.Excel+<>o__1: não há suporte para o tipo devido a limitações internas.
-C:\Users\Ricardo Guerra\Source\Repos\SPULF2\Apresentacao\Fakes\Negocios.fakes : warning : Não é possível gerar correção para Microsoft.Office.Interop.Excel.AppEvents: o tipo é uma interface.
-C:\Users\Ricardo Guerra\Source\Repos\SPULF2\Apresentacao\Fakes\Negocios.fakes : warning : Não é possível gerar correção para Microsoft.Office.Interop.Excel.AppEvents_Event: o tipo é uma interface.
-C:\Users\Ricardo Guerra\Source\Repos\SPULF2\Apresentacao\Fakes\Negocios.fakes : warning : Não é possível gerar correção para Microsoft.Office.Interop.Excel.Application: o tipo é uma interface.
-C:\Users\Ricardo Guerra\Source\Repos\SPULF2\Apresentacao\Fakes\Negocios.fakes : warning : Não é possível gerar correção para Microsoft.Office.Interop.Excel.DocEvents: o tipo é uma interface.
-C:\Users\Ricardo Guerra\Source\Repos\SPULF2\Apresentacao\Fakes\Negocios.fakes : warning : Não é possível gerar correção para Microsoft.Office.Interop.Excel.DocEvents_Event: o tipo é uma interface.
-C:\Users\Ricardo Guerra\Source\Repos\SPULF2\Apresentacao\Fakes\Negocios.fakes : warning : Não é possível gerar correção para Microsoft.Office.Interop.Excel.Range: o tipo é uma interface.
-C:\Users\Ricardo Guerra\Source\Repos\SPULF2\Apresentacao\Fakes\Negocios.fakes : warning : Não é possível gerar correção para Microsoft.Office.Interop.Excel.Sheets: o tipo é uma interface.
-C:\Users\Ricardo Guerra\Source\Repos\SPULF2\Apresentacao\Fakes\Negocios.fakes : warning : Não é possível gerar correção para Microsoft.Office.Interop.Excel.Workbook: o tipo é uma interface.
-C:\Users\Ricardo Guerra\Source\Repos\SPULF2\Apresentacao\Fakes\Negocios.fakes : warning : Não é possível gerar correção para Microsoft.Office.Interop.Excel.WorkbookEvents: o tipo é uma interface.
-C:\Users\Ricardo Guerra\Source\Repos\SPULF2\Apresentacao\Fakes\Negocios.fakes : warning : Não é possível gerar correção para Microsoft.Office.Interop.Excel.WorkbookEvents_Event: o tipo é uma interface.
-C:\Users\Ricardo Guerra\Source\Repos\SPULF2\Apresentacao\Fakes\Negocios.fakes : warning : Não é possível gerar correção para Microsoft.Office.Interop.Excel.Workbooks: o tipo é uma interface.
-C:\Users\Ricardo Guerra\Source\Repos\SPULF2\Apresentacao\Fakes\Negocios.fakes : warning : Não é possível gerar correção para Microsoft.Office.Interop.Excel.Worksheet: o tipo é uma interface.
-C:\Users\Ricardo Guerra\Source\Repos\SPULF2\Apresentacao\Fakes\Negocios.fakes : warning : Não é possível gerar correção para Microsoft.Office.Interop.Excel.XlFileFormat: o tipo é um enum.
-C:\Users\Ricardo Guerra\Source\Repos\SPULF2\Apresentacao\Fakes\Negocios.fakes : warning : Não é possível gerar correção para Microsoft.Office.Interop.Excel.XlSaveAsAccessMode: o tipo é um enum.
-C:\Users\Ricardo Guerra\Source\Repos\SPULF2\Apresentacao\Fakes\Negocios.fakes : warning : Não é possível gerar correção para Microsoft.Office.Interop.Excel._Application: o tipo é uma interface.
-C:\Users\Ricardo Guerra\Source\Repos\SPULF2\Apresentacao\Fakes\Negocios.fakes : warning : Não é possível gerar correção para Microsoft.Office.Interop.Excel._Workbook: o tipo é uma interface.
-C:\Users\Ricardo Guerra\Source\Repos\SPULF2\Apresentacao\Fakes\Negocios.fakes : warning : Não é possível gerar correção para Microsoft.Office.Interop.Excel._Worksheet: o tipo é uma interface.
+C:\Users\Joel Adelaide\Source\Repos\SPULF\Apresentacao\Fakes\Negocios.fakes : warning : Não é possível gerar stub para Negocios.ClassErros: o tipo está lacrado.
+C:\Users\Joel Adelaide\Source\Repos\SPULF\Apresentacao\Fakes\Negocios.fakes : warning : Não é possível gerar stub para Microsoft.Office.Interop.Excel.AppEvents: o tipo é gerado pelo compilador.
+C:\Users\Joel Adelaide\Source\Repos\SPULF\Apresentacao\Fakes\Negocios.fakes : warning : Não é possível gerar stub para Microsoft.Office.Interop.Excel.AppEvents_Event: o tipo é gerado pelo compilador.
+C:\Users\Joel Adelaide\Source\Repos\SPULF\Apresentacao\Fakes\Negocios.fakes : warning : Não é possível gerar stub para Microsoft.Office.Interop.Excel.Application: o tipo é gerado pelo compilador.
+C:\Users\Joel Adelaide\Source\Repos\SPULF\Apresentacao\Fakes\Negocios.fakes : warning : Não é possível gerar stub para Microsoft.Office.Interop.Excel.DocEvents: o tipo é gerado pelo compilador.
+C:\Users\Joel Adelaide\Source\Repos\SPULF\Apresentacao\Fakes\Negocios.fakes : warning : Não é possível gerar stub para Microsoft.Office.Interop.Excel.DocEvents_Event: o tipo é gerado pelo compilador.
+C:\Users\Joel Adelaide\Source\Repos\SPULF\Apresentacao\Fakes\Negocios.fakes : warning : Não é possível gerar stub para Microsoft.Office.Interop.Excel.Range: o tipo é gerado pelo compilador.
+C:\Users\Joel Adelaide\Source\Repos\SPULF\Apresentacao\Fakes\Negocios.fakes : warning : Não é possível gerar stub para Microsoft.Office.Interop.Excel.Sheets: o tipo é gerado pelo compilador.
+C:\Users\Joel Adelaide\Source\Repos\SPULF\Apresentacao\Fakes\Negocios.fakes : warning : Não é possível gerar stub para Microsoft.Office.Interop.Excel.Workbook: o tipo é gerado pelo compilador.
+C:\Users\Joel Adelaide\Source\Repos\SPULF\Apresentacao\Fakes\Negocios.fakes : warning : Não é possível gerar stub para Microsoft.Office.Interop.Excel.WorkbookEvents: o tipo é gerado pelo compilador.
+C:\Users\Joel Adelaide\Source\Repos\SPULF\Apresentacao\Fakes\Negocios.fakes : warning : Não é possível gerar stub para Microsoft.Office.Interop.Excel.WorkbookEvents_Event: o tipo é gerado pelo compilador.
+C:\Users\Joel Adelaide\Source\Repos\SPULF\Apresentacao\Fakes\Negocios.fakes : warning : Não é possível gerar stub para Microsoft.Office.Interop.Excel.Workbooks: o tipo é gerado pelo compilador.
+C:\Users\Joel Adelaide\Source\Repos\SPULF\Apresentacao\Fakes\Negocios.fakes : warning : Não é possível gerar stub para Microsoft.Office.Interop.Excel.Worksheet: o tipo é gerado pelo compilador.
+C:\Users\Joel Adelaide\Source\Repos\SPULF\Apresentacao\Fakes\Negocios.fakes : warning : Não é possível gerar stub para Microsoft.Office.Interop.Excel.XlFileFormat: o tipo é um tipo de valor.
+C:\Users\Joel Adelaide\Source\Repos\SPULF\Apresentacao\Fakes\Negocios.fakes : warning : Não é possível gerar stub para Microsoft.Office.Interop.Excel.XlSaveAsAccessMode: o tipo é um tipo de valor.
+C:\Users\Joel Adelaide\Source\Repos\SPULF\Apresentacao\Fakes\Negocios.fakes : warning : Não é possível gerar stub para Microsoft.Office.Interop.Excel._Application: o tipo é gerado pelo compilador.
+C:\Users\Joel Adelaide\Source\Repos\SPULF\Apresentacao\Fakes\Negocios.fakes : warning : Não é possível gerar stub para Microsoft.Office.Interop.Excel._Workbook: o tipo é gerado pelo compilador.
+C:\Users\Joel Adelaide\Source\Repos\SPULF\Apresentacao\Fakes\Negocios.fakes : warning : Não é possível gerar stub para Microsoft.Office.Interop.Excel._Worksheet: o tipo é gerado pelo compilador.
+C:\Users\Joel Adelaide\Source\Repos\SPULF\Apresentacao\Fakes\Negocios.fakes : warning : Não é possível gerar correção para Negocios.Excel+<>o__0: não há suporte para o tipo devido a limitações internas.
+C:\Users\Joel Adelaide\Source\Repos\SPULF\Apresentacao\Fakes\Negocios.fakes : warning : Não é possível gerar correção para Negocios.Excel+<>o__1: não há suporte para o tipo devido a limitações internas.
+C:\Users\Joel Adelaide\Source\Repos\SPULF\Apresentacao\Fakes\Negocios.fakes : warning : Não é possível gerar correção para Microsoft.Office.Interop.Excel.AppEvents: o tipo é uma interface.
+C:\Users\Joel Adelaide\Source\Repos\SPULF\Apresentacao\Fakes\Negocios.fakes : warning : Não é possível gerar correção para Microsoft.Office.Interop.Excel.AppEvents_Event: o tipo é uma interface.
+C:\Users\Joel Adelaide\Source\Repos\SPULF\Apresentacao\Fakes\Negocios.fakes : warning : Não é possível gerar correção para Microsoft.Office.Interop.Excel.Application: o tipo é uma interface.
+C:\Users\Joel Adelaide\Source\Repos\SPULF\Apresentacao\Fakes\Negocios.fakes : warning : Não é possível gerar correção para Microsoft.Office.Interop.Excel.DocEvents: o tipo é uma interface.
+C:\Users\Joel Adelaide\Source\Repos\SPULF\Apresentacao\Fakes\Negocios.fakes : warning : Não é possível gerar correção para Microsoft.Office.Interop.Excel.DocEvents_Event: o tipo é uma interface.
+C:\Users\Joel Adelaide\Source\Repos\SPULF\Apresentacao\Fakes\Negocios.fakes : warning : Não é possível gerar correção para Microsoft.Office.Interop.Excel.Range: o tipo é uma interface.
+C:\Users\Joel Adelaide\Source\Repos\SPULF\Apresentacao\Fakes\Negocios.fakes : warning : Não é possível gerar correção para Microsoft.Office.Interop.Excel.Sheets: o tipo é uma interface.
+C:\Users\Joel Adelaide\Source\Repos\SPULF\Apresentacao\Fakes\Negocios.fakes : warning : Não é possível gerar correção para Microsoft.Office.Interop.Excel.Workbook: o tipo é uma interface.
+C:\Users\Joel Adelaide\Source\Repos\SPULF\Apresentacao\Fakes\Negocios.fakes : warning : Não é possível gerar correção para Microsoft.Office.Interop.Excel.WorkbookEvents: o tipo é uma interface.
+C:\Users\Joel Adelaide\Source\Repos\SPULF\Apresentacao\Fakes\Negocios.fakes : warning : Não é possível gerar correção para Microsoft.Office.Interop.Excel.WorkbookEvents_Event: o tipo é uma interface.
+C:\Users\Joel Adelaide\Source\Repos\SPULF\Apresentacao\Fakes\Negocios.fakes : warning : Não é possível gerar correção para Microsoft.Office.Interop.Excel.Workbooks: o tipo é uma interface.
+C:\Users\Joel Adelaide\Source\Repos\SPULF\Apresentacao\Fakes\Negocios.fakes : warning : Não é possível gerar correção para Microsoft.Office.Interop.Excel.Worksheet: o tipo é uma interface.
+C:\Users\Joel Adelaide\Source\Repos\SPULF\Apresentacao\Fakes\Negocios.fakes : warning : Não é possível gerar correção para Microsoft.Office.Interop.Excel.XlFileFormat: o tipo é um enum.
+C:\Users\Joel Adelaide\Source\Repos\SPULF\Apresentacao\Fakes\Negocios.fakes : warning : Não é possível gerar correção para Microsoft.Office.Interop.Excel.XlSaveAsAccessMode: o tipo é um enum.
+C:\Users\Joel Adelaide\Source\Repos\SPULF\Apresentacao\Fakes\Negocios.fakes : warning : Não é possível gerar correção para Microsoft.Office.Interop.Excel._Application: o tipo é uma interface.
+C:\Users\Joel Adelaide\Source\Repos\SPULF\Apresentacao\Fakes\Negocios.fakes : warning : Não é possível gerar correção para Microsoft.Office.Interop.Excel._Workbook: o tipo é uma interface.
+C:\Users\Joel Adelaide\Source\Repos\SPULF\Apresentacao\Fakes\Negocios.fakes : warning : Não é possível gerar correção para Microsoft.Office.Interop.Excel._Worksheet: o tipo é uma interface.

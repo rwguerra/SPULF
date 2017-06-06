@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(View_Login));
-            this.textBoxLogin = new System.Windows.Forms.TextBox();
+            this.textBoxEmail = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.textBoxSenha = new System.Windows.Forms.TextBox();
@@ -39,22 +39,22 @@
             this.linkLabel2 = new System.Windows.Forms.LinkLabel();
             this.SuspendLayout();
             // 
-            // textBoxLogin
+            // textBoxEmail
             // 
-            this.textBoxLogin.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxLogin.Location = new System.Drawing.Point(12, 31);
-            this.textBoxLogin.Name = "textBoxLogin";
-            this.textBoxLogin.Size = new System.Drawing.Size(220, 31);
-            this.textBoxLogin.TabIndex = 0;
+            this.textBoxEmail.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxEmail.Location = new System.Drawing.Point(12, 31);
+            this.textBoxEmail.Name = "textBoxEmail";
+            this.textBoxEmail.Size = new System.Drawing.Size(220, 31);
+            this.textBoxEmail.TabIndex = 0;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(12, 15);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(33, 13);
+            this.label1.Size = new System.Drawing.Size(35, 13);
             this.label1.TabIndex = 2;
-            this.label1.Text = "Login";
+            this.label1.Text = "E-mail";
             // 
             // label2
             // 
@@ -134,7 +134,7 @@
             this.Controls.Add(this.textBoxSenha);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.textBoxLogin);
+            this.Controls.Add(this.textBoxEmail);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.MinimizeBox = false;
@@ -149,7 +149,7 @@
 
         #endregion
 
-        private System.Windows.Forms.TextBox textBoxLogin;
+        private System.Windows.Forms.TextBox textBoxEmail;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox textBoxSenha;

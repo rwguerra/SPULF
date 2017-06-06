@@ -13,3 +13,9 @@ C:\Users\JOEL-GICA\Source\Repos\SPULF\AcessoBD\bin\Debug\AcessoBD.pdb
 C:\Users\JOEL-GICA\Source\Repos\SPULF\AcessoBD\obj\Debug\AcessoBD.csprojResolveAssemblyReference.cache
 C:\Users\JOEL-GICA\Source\Repos\SPULF\AcessoBD\obj\Debug\AcessoBD.dll
 C:\Users\JOEL-GICA\Source\Repos\SPULF\AcessoBD\obj\Debug\AcessoBD.pdb
+C:\Users\Joel Adelaide\Source\Repos\SPULF\AcessoBD\bin\Debug\AcessoBD.dll.config
+C:\Users\Joel Adelaide\Source\Repos\SPULF\AcessoBD\bin\Debug\AcessoBD.dll
+C:\Users\Joel Adelaide\Source\Repos\SPULF\AcessoBD\bin\Debug\AcessoBD.pdb
+C:\Users\Joel Adelaide\Source\Repos\SPULF\AcessoBD\obj\Debug\AcessoBD.csprojResolveAssemblyReference.cache
+C:\Users\Joel Adelaide\Source\Repos\SPULF\AcessoBD\obj\Debug\AcessoBD.dll
+C:\Users\Joel Adelaide\Source\Repos\SPULF\AcessoBD\obj\Debug\AcessoBD.pdb

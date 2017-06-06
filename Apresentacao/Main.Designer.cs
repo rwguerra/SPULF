@@ -41,6 +41,11 @@
             this.ribbonPanel2 = new System.Windows.Forms.RibbonPanel();
             this.ribbonTextBox1 = new System.Windows.Forms.RibbonTextBox();
             this.ribbonComboBox1 = new System.Windows.Forms.RibbonComboBox();
+            this.ribbonLabel1 = new System.Windows.Forms.RibbonLabel();
+            this.ribbonLabel2 = new System.Windows.Forms.RibbonLabel();
+            this.ribbonLabel3 = new System.Windows.Forms.RibbonLabel();
+            this.ribbonLabel4 = new System.Windows.Forms.RibbonLabel();
+            this.ribbonLabel5 = new System.Windows.Forms.RibbonLabel();
             this.ribbonTextBox2 = new System.Windows.Forms.RibbonTextBox();
             this.ribbonPanel3 = new System.Windows.Forms.RibbonPanel();
             this.ribbonUpDown2 = new System.Windows.Forms.RibbonUpDown();
@@ -80,13 +85,15 @@
             this.ribbonUpDown1 = new System.Windows.Forms.RibbonUpDown();
             this.ribbonUpDown5 = new System.Windows.Forms.RibbonUpDown();
             this.ribbonMain = new System.Windows.Forms.Ribbon();
+            this.ribbonButton11 = new System.Windows.Forms.RibbonButton();
             this.plot = new OxyPlot.WindowsForms.PlotView();
             this.ribbonOrbOptionButton1 = new System.Windows.Forms.RibbonOrbOptionButton();
-            this.ribbonLabel1 = new System.Windows.Forms.RibbonLabel();
-            this.ribbonLabel2 = new System.Windows.Forms.RibbonLabel();
-            this.ribbonLabel3 = new System.Windows.Forms.RibbonLabel();
-            this.ribbonLabel4 = new System.Windows.Forms.RibbonLabel();
-            this.ribbonLabel5 = new System.Windows.Forms.RibbonLabel();
+            this.button1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.button3 = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // ribbonOrbMenuItem3
@@ -172,6 +179,27 @@
             this.ribbonComboBox1.LabelWidth = 110;
             this.ribbonComboBox1.Text = "Série temporal em:";
             this.ribbonComboBox1.TextBoxText = "";
+            // 
+            // ribbonLabel1
+            // 
+            this.ribbonLabel1.Text = "Minutos";
+            // 
+            // ribbonLabel2
+            // 
+            this.ribbonLabel2.Text = "Horas";
+            // 
+            // ribbonLabel3
+            // 
+            this.ribbonLabel3.Text = "Dias";
+            // 
+            // ribbonLabel4
+            // 
+            this.ribbonLabel4.Tag = "";
+            this.ribbonLabel4.Text = "Mes";
+            // 
+            // ribbonLabel5
+            // 
+            this.ribbonLabel5.Text = "Anos";
             // 
             // ribbonTextBox2
             // 
@@ -395,6 +423,7 @@
             this.ribbonMain.QuickAcessToolbar.Items.Add(this.ribbonButton2);
             this.ribbonMain.QuickAcessToolbar.Items.Add(this.ribbonButton3);
             this.ribbonMain.QuickAcessToolbar.Items.Add(this.ribbonButton4);
+            this.ribbonMain.QuickAcessToolbar.Items.Add(this.ribbonButton11);
             this.ribbonMain.RibbonTabFont = new System.Drawing.Font("Trebuchet MS", 9F);
             this.ribbonMain.Size = new System.Drawing.Size(1130, 147);
             this.ribbonMain.TabIndex = 0;
@@ -405,16 +434,23 @@
             this.ribbonMain.Text = "ribbon1";
             this.ribbonMain.ThemeColor = System.Windows.Forms.RibbonTheme.Black;
             // 
+            // ribbonButton11
+            // 
+            this.ribbonButton11.Image = ((System.Drawing.Image)(resources.GetObject("ribbonButton11.Image")));
+            this.ribbonButton11.MaxSizeMode = System.Windows.Forms.RibbonElementSizeMode.Compact;
+            this.ribbonButton11.SmallImage = ((System.Drawing.Image)(resources.GetObject("ribbonButton11.SmallImage")));
+            this.ribbonButton11.Text = "ribbonButton11";
+            // 
             // plot
             // 
             this.plot.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.plot.BackColor = System.Drawing.SystemColors.AppWorkspace;
-            this.plot.Location = new System.Drawing.Point(58, 169);
+            this.plot.Location = new System.Drawing.Point(58, 240);
             this.plot.Name = "plot";
             this.plot.PanCursor = System.Windows.Forms.Cursors.Hand;
-            this.plot.Size = new System.Drawing.Size(1011, 304);
+            this.plot.Size = new System.Drawing.Size(1011, 233);
             this.plot.TabIndex = 27;
             this.plot.Text = "plot2";
             this.plot.ZoomHorizontalCursor = System.Windows.Forms.Cursors.SizeWE;
@@ -427,39 +463,82 @@
             this.ribbonOrbOptionButton1.SmallImage = ((System.Drawing.Image)(resources.GetObject("ribbonOrbOptionButton1.SmallImage")));
             this.ribbonOrbOptionButton1.Text = "ribbonOrbOptionButton1";
             // 
-            // ribbonLabel1
+            // button1
             // 
-            this.ribbonLabel1.Text = "Minutos";
+            this.button1.Location = new System.Drawing.Point(183, 178);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 28;
+            this.button1.Text = "Logar";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // ribbonLabel2
+            // button2
             // 
-            this.ribbonLabel2.Text = "Horas";
+            this.button2.Location = new System.Drawing.Point(292, 178);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(75, 23);
+            this.button2.TabIndex = 29;
+            this.button2.Text = "Novo Login";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
-            // ribbonLabel3
+            // textBox1
             // 
-            this.ribbonLabel3.Text = "Dias";
+            this.textBox1.Location = new System.Drawing.Point(407, 186);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(100, 20);
+            this.textBox1.TabIndex = 30;
             // 
-            // ribbonLabel4
+            // label1
             // 
-            this.ribbonLabel4.Tag = "";
-            this.ribbonLabel4.Text = "Mes";
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(404, 170);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(64, 13);
+            this.label1.TabIndex = 31;
+            this.label1.Text = "MS Variavel";
             // 
-            // ribbonLabel5
+            // button3
             // 
-            this.ribbonLabel5.Text = "Anos";
+            this.button3.Location = new System.Drawing.Point(528, 173);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(115, 33);
+            this.button3.TabIndex = 32;
+            this.button3.Text = "PREVER";
+            this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
+            // 
+            // button4
+            // 
+            this.button4.Location = new System.Drawing.Point(23, 165);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(94, 36);
+            this.button4.TabIndex = 33;
+            this.button4.Text = "Ler CSV";
+            this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click_1);
             // 
             // Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1130, 485);
+            this.Controls.Add(this.button4);
+            this.Controls.Add(this.button3);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.button2);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.plot);
             this.Controls.Add(this.ribbonMain);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Main";
             this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
             this.Text = "Sistema de Previsão Utilizando Lógica Fuzzy - SPULF";
+            this.Load += new System.EventHandler(this.Main_Load);
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -525,5 +604,12 @@
         private System.Windows.Forms.RibbonLabel ribbonLabel3;
         private System.Windows.Forms.RibbonLabel ribbonLabel4;
         private System.Windows.Forms.RibbonLabel ribbonLabel5;
+        private System.Windows.Forms.RibbonButton ribbonButton11;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button button4;
     }
 }

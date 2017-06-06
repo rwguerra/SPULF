@@ -32,3 +32,15 @@ C:\Users\Ricardo Guerra\Source\Repos\SPULF2\Negocios\obj\Debug\Negocios.csprojRe
 C:\Users\Ricardo Guerra\Source\Repos\SPULF2\Negocios\obj\Debug\Negocios.csproj.ResolveComReference.cache
 C:\Users\Ricardo Guerra\Source\Repos\SPULF2\Negocios\obj\Debug\Negocios.dll
 C:\Users\Ricardo Guerra\Source\Repos\SPULF2\Negocios\obj\Debug\Negocios.pdb
+C:\Users\Joel Adelaide\Source\Repos\SPULF\Negocios\obj\Debug\Negocios.csprojResolveAssemblyReference.cache
+C:\Users\Joel Adelaide\Source\Repos\SPULF\Negocios\obj\Debug\Negocios.csproj.ResolveComReference.cache
+C:\Users\Joel Adelaide\Source\Repos\SPULF\Negocios\obj\Debug\Negocios.dll
+C:\Users\Joel Adelaide\Source\Repos\SPULF\Negocios\obj\Debug\Negocios.pdb
+C:\Users\Joel Adelaide\Source\Repos\SPULF\Negocios\bin\Debug\Negocios.dll
+C:\Users\Joel Adelaide\Source\Repos\SPULF\Negocios\bin\Debug\Negocios.pdb
+C:\Users\Joel Adelaide\Source\Repos\SPULF\Negocios\bin\Debug\AcessoBD.dll
+C:\Users\Joel Adelaide\Source\Repos\SPULF\Negocios\bin\Debug\AForge.dll
+C:\Users\Joel Adelaide\Source\Repos\SPULF\Negocios\bin\Debug\AForge.Fuzzy.dll
+C:\Users\Joel Adelaide\Source\Repos\SPULF\Negocios\bin\Debug\ObjetoTransferencia.dll
+C:\Users\Joel Adelaide\Source\Repos\SPULF\Negocios\bin\Debug\AcessoBD.pdb
+C:\Users\Joel Adelaide\Source\Repos\SPULF\Negocios\bin\Debug\ObjetoTransferencia.pdb

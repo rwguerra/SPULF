@@ -29,12 +29,12 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ViewCadastro));
-            this.textBoxLogin = new System.Windows.Forms.TextBox();
+            this.textBoxNome = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.textBoxEmail = new System.Windows.Forms.TextBox();
+            this.textBoxSenha = new System.Windows.Forms.TextBox();
+            this.textBoxConfirmacaoSenha = new System.Windows.Forms.TextBox();
+            this.textBoxUf = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
@@ -43,13 +43,13 @@
             this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // textBoxLogin
+            // textBoxNome
             // 
-            this.textBoxLogin.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxLogin.Location = new System.Drawing.Point(12, 32);
-            this.textBoxLogin.Name = "textBoxLogin";
-            this.textBoxLogin.Size = new System.Drawing.Size(362, 31);
-            this.textBoxLogin.TabIndex = 1;
+            this.textBoxNome.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxNome.Location = new System.Drawing.Point(12, 32);
+            this.textBoxNome.Name = "textBoxNome";
+            this.textBoxNome.Size = new System.Drawing.Size(362, 31);
+            this.textBoxNome.TabIndex = 1;
             // 
             // label1
             // 
@@ -60,39 +60,39 @@
             this.label1.TabIndex = 2;
             this.label1.Text = "Nome Completo";
             // 
-            // textBox1
+            // textBoxEmail
             // 
-            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(12, 84);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(362, 31);
-            this.textBox1.TabIndex = 3;
+            this.textBoxEmail.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxEmail.Location = new System.Drawing.Point(12, 84);
+            this.textBoxEmail.Name = "textBoxEmail";
+            this.textBoxEmail.Size = new System.Drawing.Size(362, 31);
+            this.textBoxEmail.TabIndex = 3;
             // 
-            // textBox2
+            // textBoxSenha
             // 
-            this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.Location = new System.Drawing.Point(12, 136);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.PasswordChar = 'x';
-            this.textBox2.Size = new System.Drawing.Size(162, 31);
-            this.textBox2.TabIndex = 4;
+            this.textBoxSenha.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxSenha.Location = new System.Drawing.Point(12, 136);
+            this.textBoxSenha.Name = "textBoxSenha";
+            this.textBoxSenha.PasswordChar = 'x';
+            this.textBoxSenha.Size = new System.Drawing.Size(162, 31);
+            this.textBoxSenha.TabIndex = 4;
             // 
-            // textBox3
+            // textBoxConfirmacaoSenha
             // 
-            this.textBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox3.Location = new System.Drawing.Point(212, 136);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.PasswordChar = 'x';
-            this.textBox3.Size = new System.Drawing.Size(162, 31);
-            this.textBox3.TabIndex = 5;
+            this.textBoxConfirmacaoSenha.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxConfirmacaoSenha.Location = new System.Drawing.Point(212, 136);
+            this.textBoxConfirmacaoSenha.Name = "textBoxConfirmacaoSenha";
+            this.textBoxConfirmacaoSenha.PasswordChar = 'x';
+            this.textBoxConfirmacaoSenha.Size = new System.Drawing.Size(162, 31);
+            this.textBoxConfirmacaoSenha.TabIndex = 5;
             // 
-            // textBox4
+            // textBoxUf
             // 
-            this.textBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox4.Location = new System.Drawing.Point(12, 188);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(362, 31);
-            this.textBox4.TabIndex = 6;
+            this.textBoxUf.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxUf.Location = new System.Drawing.Point(12, 188);
+            this.textBoxUf.Name = "textBoxUf";
+            this.textBoxUf.Size = new System.Drawing.Size(362, 31);
+            this.textBoxUf.TabIndex = 6;
             // 
             // label2
             // 
@@ -164,12 +164,12 @@
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.textBoxUf);
+            this.Controls.Add(this.textBoxConfirmacaoSenha);
+            this.Controls.Add(this.textBoxSenha);
+            this.Controls.Add(this.textBoxEmail);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.textBoxLogin);
+            this.Controls.Add(this.textBoxNome);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.MinimizeBox = false;
@@ -182,12 +182,12 @@
 
         #endregion
 
-        private System.Windows.Forms.TextBox textBoxLogin;
+        private System.Windows.Forms.TextBox textBoxNome;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox textBoxEmail;
+        private System.Windows.Forms.TextBox textBoxSenha;
+        private System.Windows.Forms.TextBox textBoxConfirmacaoSenha;
+        private System.Windows.Forms.TextBox textBoxUf;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
