@@ -11,19 +11,88 @@ using Negocios;
 using System.IO;
 using OxyPlot;
 using OxyPlot.Series;
+using OxyPlot.Extensions;
+using OxyPlot.WindowsForms;
+using OxyPlot.Axes;
 
 namespace Apresentacao
 {
     public partial class Main : Form
     {
         Login logado;
+        List<Item> ItensAtualizados;
 
         public Main()
         {
+            
             InitializeComponent();
             var myModel = new PlotModel { Title = "Exemplo" };
-            myModel.Series.Add(new FunctionSeries(Math.Cos, 0, 10, 0.1, "cos(x)"));
+            myModel.Series.Add(new LineSeries());
+                   
             this.plot.Model = myModel;
+        }
+
+        private void zeraGraficoIntervalo()
+        {
+            PlotModel myModell = new PlotModel();
+
+            myModell.Title = "";
+            var linearAxis1 = new LinearAxis();
+            myModell.Axes.Add(linearAxis1);
+            var linearAxis2 = new LinearAxis();
+            linearAxis2.Position = AxisPosition.Bottom;
+            myModell.Axes.Add(linearAxis2);
+
+
+            //criação do modelo e configuração do gráfico
+            myModell.PlotType = PlotType.XY;
+            myModell.Background = OxyColor.FromRgb(255, 255, 255);
+            myModell.TextColor = OxyColor.FromRgb(0, 0, 0);
+            myModell.IsLegendVisible = true;
+
+            myModell.LegendBorder = OxyColors.Black;
+            myModell.LegendPlacement = LegendPlacement.Outside;
+            myModell.LegendPosition = LegendPosition.BottomLeft;
+            myModell.LegendOrientation = LegendOrientation.Horizontal;
+
+
+            linearAxis2.Title = "";
+
+            //titulo dos eixos
+            linearAxis1.Title = "";
+
+            // Adição do modelo à janela  do gráfico
+            plot.Model = myModell;
+
+            //Limpa informações anteriores caso existam, do gráfico
+            if (plot.Model.Series != null) plot.Model.Series.Clear();
+
+        }
+
+        private void AtualizaPlot()
+        {
+            //Limpa informações anteriores caso existam, do gráfico
+            if (plot.Model.Series != null) plot.Model.Series.Clear();
+
+            LineSeries variavel = new LineSeries();
+            variavel = new LineSeries();
+            variavel.StrokeThickness = 3.0;
+            variavel.LineStyle = LineStyle.Solid;
+            variavel.MarkerType = MarkerType.Circle;
+            variavel.MarkerStrokeThickness = 5;
+            variavel.MarkerResolution = 4;
+
+            for (int i = 0; i < ItensAtualizados.Count; i++)
+            {
+                variavel.Points.Add(new DataPoint(i,ItensAtualizados[i].DadosOriginais ));
+               
+            }
+
+            // Adiciona a série ao gráfico
+            plot.Model.Series.Add(variavel);
+
+            plot.Model.InvalidatePlot(true);
+
         }
 
         private void button3_Click(object sender, EventArgs e)
@@ -89,10 +158,10 @@ namespace Apresentacao
 
         private void Main_Load(object sender, EventArgs e)
         {
-
+            zeraGraficoIntervalo();
         }
 
-        private List<Item> LerCSV()
+        private void LerCSV()
         {
             List<Item> Itens = new List<Item>();
             
@@ -121,7 +190,7 @@ namespace Apresentacao
             }
             rd.Close();
 
-            return Itens;
+            ItensAtualizados = Itens;
         }
 
         private void button4_Click_1(object sender, EventArgs e)
@@ -132,6 +201,7 @@ namespace Apresentacao
         private void ribbonButton1_Click(object sender, EventArgs e)
         {
             LerCSV();
+            AtualizaPlot();
         }
 
         private void ribbonButton3_Click(object sender, EventArgs e)
