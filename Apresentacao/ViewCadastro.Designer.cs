@@ -174,6 +174,7 @@
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "ViewCadastro";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Cadastro - SPULF";
             this.ResumeLayout(false);
             this.PerformLayout();

@@ -223,7 +223,7 @@
             this.ribbonUpDown2.Text = "MS Tempo:";
             this.ribbonUpDown2.TextBoxText = "";
             this.ribbonUpDown2.TextBoxWidth = 50;
-            this.ribbonUpDown2.Value = "";
+            this.ribbonUpDown2.Value = "10";
             // 
             // ribbonUpDown3
             // 
@@ -235,11 +235,11 @@
             // 
             // ribbonUpDown4
             // 
-            this.ribbonUpDown4.Enabled = false;
             this.ribbonUpDown4.LabelWidth = 80;
-            this.ribbonUpDown4.Text = "MOD MS";
+            this.ribbonUpDown4.Text = "Qnt Prev";
             this.ribbonUpDown4.TextBoxText = "";
             this.ribbonUpDown4.TextBoxWidth = 50;
+            this.ribbonUpDown4.Value = "100";
             // 
             // ribbonUpDown8
             // 
@@ -446,6 +446,7 @@
             this.Name = "Main";
             this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
             this.Text = "Sistema de Previsão Utilizando Lógica Fuzzy - SPULF";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.Main_Load);
             this.ResumeLayout(false);
 

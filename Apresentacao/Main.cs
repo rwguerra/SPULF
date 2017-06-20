@@ -78,7 +78,7 @@ namespace Apresentacao
             variavel = new LineSeries();
             variavel.StrokeThickness = 3.0;
             variavel.LineStyle = LineStyle.Solid;
-            variavel.MarkerType = MarkerType.Circle;
+            //variavel.MarkerType = MarkerType.Circle;
             variavel.MarkerStrokeThickness = 5;
             variavel.MarkerResolution = 4;
 
@@ -224,22 +224,8 @@ namespace Apresentacao
 
         private void ribbonButton5_Click(object sender, EventArgs e)
         {
-            // DADOOS
 
-            List<Item> listaDados = new List<Item>();
-
-            for (int i = 0; i < 100; i++)
-            {
-                Item item = new Item();
-                item.Tempo = i;
-                item.DadosOriginais = i;
-
-                listaDados.Add(item);
-            }
-
-            // CONFIGURAÇÃO VARIAVEL LINGUISTICA
-
-            int qntMSVariavel = Convert.ToInt32(ribbonUpDown2);
+            int qntMSVariavel = Convert.ToInt32(ribbonUpDown2.Value);
 
             List<VariavelLinguistica> _ListaVariaveis = new List<VariavelLinguistica>();
 
@@ -261,9 +247,81 @@ namespace Apresentacao
 
             //CONFIGURAÇÃO PREVISÃO
 
+            List<Item> ItemsPrev = new List<Item>();
+
+            ItemsPrev = ItensAtualizados;
+
+            List<double> previsoes = new List<double>();
+
             PrevisaoFuzzy previsaoFuzzy = new PrevisaoFuzzy();
 
-            double previsao = previsaoFuzzy.Previsao(listaDados, _ListaVariaveis);
+            int a = Convert.ToInt32(ribbonUpDown4.Value);
+
+            for (int i = 0; i <= Convert.ToInt32( ribbonUpDown4.Value ); i++)
+            {
+                Double previsto = previsaoFuzzy.Previsao(ItemsPrev, _ListaVariaveis);
+
+                Item item = new Item();
+                item.DadosOriginais = previsto;
+                item.Tempo = i;
+
+                previsoes.Add(previsto);
+
+                ItemsPrev.Add(item);
+            }
+
+            AtualizaPlot(previsoes,ItensAtualizados);
+            
         }
+
+
+        private void AtualizaPlot(List<Double> previsto, List<Item> ItemsPrev)
+        {
+            //Limpa informações anteriores caso existam, do gráfico
+            if (plot.Model.Series != null) plot.Model.Series.Clear();
+
+            LineSeries variavel = new LineSeries();
+            variavel = new LineSeries();
+            variavel.StrokeThickness = 3.0;
+            variavel.LineStyle = LineStyle.Solid;
+            //variavel.MarkerType = MarkerType.Circle;
+            variavel.MarkerStrokeThickness = 5;
+            variavel.MarkerResolution = 4;
+
+            LineSeries previsao = new LineSeries();
+            previsao = new LineSeries();
+            previsao.StrokeThickness = 3.0;
+            previsao.LineStyle = LineStyle.Solid;
+            //previsao.MarkerType = MarkerType.Circle;
+            previsao.MarkerStrokeThickness = 5;
+            previsao.MarkerResolution = 4;
+
+            int a = 0;
+
+            for (int i = 0; i < ItensAtualizados.Count; i++)
+            {
+                variavel.Points.Add(new DataPoint(i, ItensAtualizados[i].DadosOriginais));
+                a = i;
+            }
+
+            for (int i = 0; i < previsto.Count; i++)
+            {
+                previsao.Points.Add(new DataPoint(a + i , previsto[i]));
+            }
+
+            
+
+
+            // Adiciona a série ao gráfico
+            plot.Model.Series.Add(variavel);
+            plot.Model.Series.Add(previsao);
+
+            plot.Model.InvalidatePlot(true);
+
+        }
+
+
+
+
     }
 }

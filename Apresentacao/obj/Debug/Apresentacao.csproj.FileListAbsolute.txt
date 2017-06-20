@@ -215,3 +215,4 @@ C:\Users\Ricardo Guerra\Source\Repos\SPULF2\Apresentacao\obj\Debug\Fakes\n\b\Ace
 C:\Users\Ricardo Guerra\Source\Repos\SPULF2\Apresentacao\obj\Debug\Fakes\n\b\AcessoBD.pdb
 C:\Users\Ricardo Guerra\Source\Repos\SPULF2\Apresentacao\bin\Debug\Negocios.Fakes.fakesconfig
 C:\Users\Ricardo Guerra\Source\Repos\SPULF2\Apresentacao\bin\Debug\AcessoBD.dll.config
+C:\Users\Joel Adelaide\Source\Repos\SPULF\Apresentacao\bin\Debug\Negocios.Fakes.fakesconfig

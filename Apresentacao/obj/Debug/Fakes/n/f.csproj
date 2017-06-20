@@ -8,7 +8,7 @@
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>9.0.21022</ProductVersion>
-    <ProjectGuid>0ebd6db0-2e22-45aa-8c2a-7b350c9e4596</ProjectGuid>
+    <ProjectGuid>fcd8c671-2d05-4869-827f-3731977aba22</ProjectGuid>
     <!-- update GUID here -->
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -46,18 +46,18 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Microsoft.QualityTools.Testing.Fakes">
-      <HintPath>C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\PublicAssemblies\Microsoft.QualityTools.Testing.Fakes.dll</HintPath>
+      <HintPath>C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\PublicAssemblies\Microsoft.QualityTools.Testing.Fakes.dll</HintPath>
       <SpecificVersion>False</SpecificVersion>
       <EmbedInteropTypes>False</EmbedInteropTypes>
       <Aliases>mqttf</Aliases>
     </Reference>
     <Reference Include="Negocios">
-      <HintPath>C:\Users\Ricardo Guerra\Source\Repos\SPULF2\Negocios\bin\Debug\Negocios.dll</HintPath>
+      <HintPath>C:\Users\Joel Adelaide\Source\Repos\SPULF\Negocios\bin\Debug\Negocios.dll</HintPath>
       <Aliases>n</Aliases>
       <EmbedInteropTypes>False</EmbedInteropTypes>
     </Reference>
     <Reference Include="ObjetoTransferencia">
-      <HintPath>C:\Users\Ricardo Guerra\Source\Repos\SPULF2\Negocios\bin\Debug\ObjetoTransferencia.dll</HintPath>
+      <HintPath>C:\Users\Joel Adelaide\Source\Repos\SPULF\Negocios\bin\Debug\ObjetoTransferencia.dll</HintPath>
       <Aliases>ot</Aliases>
       <EmbedInteropTypes>False</EmbedInteropTypes>
     </Reference>
@@ -81,15 +81,15 @@
       <EmbedInteropTypes>False</EmbedInteropTypes>
     </Reference>
     <Reference Include="OxyPlot">
-      <HintPath>C:\Users\Ricardo Guerra\Source\Repos\SPULF2\OxyPlot.dll</HintPath>
+      <HintPath>C:\Users\Joel Adelaide\Source\Repos\SPULF\OxyPlot.dll</HintPath>
       <EmbedInteropTypes>False</EmbedInteropTypes>
     </Reference>
     <Reference Include="OxyPlot.Extensions">
-      <HintPath>C:\Users\Ricardo Guerra\Source\Repos\SPULF2\OxyPlot.Extensions.dll</HintPath>
+      <HintPath>C:\Users\Joel Adelaide\Source\Repos\SPULF\OxyPlot.Extensions.dll</HintPath>
       <EmbedInteropTypes>False</EmbedInteropTypes>
     </Reference>
     <Reference Include="OxyPlot.WindowsForms">
-      <HintPath>C:\Users\Ricardo Guerra\Source\Repos\SPULF2\OxyPlot.WindowsForms.dll</HintPath>
+      <HintPath>C:\Users\Joel Adelaide\Source\Repos\SPULF\OxyPlot.WindowsForms.dll</HintPath>
       <EmbedInteropTypes>False</EmbedInteropTypes>
     </Reference>
     <Reference Include="System.Core">
@@ -117,7 +117,7 @@
       <EmbedInteropTypes>False</EmbedInteropTypes>
     </Reference>
     <Reference Include="System.Windows.Forms.Ribbon35">
-      <HintPath>C:\Users\Ricardo Guerra\Source\Repos\SPULF2\Apresentacao\bin\Debug\System.Windows.Forms.Ribbon35.dll</HintPath>
+      <HintPath>C:\Users\Joel Adelaide\Source\Repos\SPULF\Apresentacao\bin\Debug\System.Windows.Forms.Ribbon35.dll</HintPath>
       <EmbedInteropTypes>False</EmbedInteropTypes>
     </Reference>
     <Reference Include="System.Xml.Linq">
@@ -125,15 +125,15 @@
       <EmbedInteropTypes>False</EmbedInteropTypes>
     </Reference>
     <Reference Include="AcessoBD">
-      <HintPath>C:\Users\Ricardo Guerra\Source\Repos\SPULF2\Negocios\bin\Debug\AcessoBD.dll</HintPath>
+      <HintPath>C:\Users\Joel Adelaide\Source\Repos\SPULF\Negocios\bin\Debug\AcessoBD.dll</HintPath>
       <EmbedInteropTypes>False</EmbedInteropTypes>
     </Reference>
     <Reference Include="AForge.Fuzzy">
-      <HintPath>C:\Users\Ricardo Guerra\Source\Repos\SPULF2\Negocios\bin\Debug\AForge.Fuzzy.dll</HintPath>
+      <HintPath>C:\Users\Joel Adelaide\Source\Repos\SPULF\Negocios\bin\Debug\AForge.Fuzzy.dll</HintPath>
       <EmbedInteropTypes>False</EmbedInteropTypes>
     </Reference>
     <Reference Include="AForge">
-      <HintPath>C:\Users\Ricardo Guerra\Source\Repos\SPULF2\Negocios\bin\Debug\AForge.dll</HintPath>
+      <HintPath>C:\Users\Joel Adelaide\Source\Repos\SPULF\Negocios\bin\Debug\AForge.dll</HintPath>
       <EmbedInteropTypes>False</EmbedInteropTypes>
     </Reference>
   </ItemGroup>
