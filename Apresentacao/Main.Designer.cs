@@ -29,6 +29,8 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Main));
+            System.Windows.Forms.ListViewItem listViewItem1 = new System.Windows.Forms.ListViewItem("");
+            System.Windows.Forms.ListViewItem listViewItem2 = new System.Windows.Forms.ListViewItem("");
             this.ribbonOrbMenuItem3 = new System.Windows.Forms.RibbonOrbMenuItem();
             this.ribbonOrbRecentItem1 = new System.Windows.Forms.RibbonOrbRecentItem();
             this.ribbonOrbRecentItem2 = new System.Windows.Forms.RibbonOrbRecentItem();
@@ -79,8 +81,14 @@
             this.ribbonUpDown5 = new System.Windows.Forms.RibbonUpDown();
             this.ribbonMain = new System.Windows.Forms.Ribbon();
             this.ribbonButton11 = new System.Windows.Forms.RibbonButton();
-            this.plot = new OxyPlot.WindowsForms.PlotView();
             this.ribbonOrbOptionButton1 = new System.Windows.Forms.RibbonOrbOptionButton();
+            this.splitContainer1 = new System.Windows.Forms.SplitContainer();
+            this.listView1 = new System.Windows.Forms.ListView();
+            this.plot = new OxyPlot.WindowsForms.PlotView();
+            ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
+            this.splitContainer1.Panel1.SuspendLayout();
+            this.splitContainer1.Panel2.SuspendLayout();
+            this.splitContainer1.SuspendLayout();
             this.SuspendLayout();
             // 
             // ribbonOrbMenuItem3
@@ -413,32 +421,67 @@
             this.ribbonButton11.SmallImage = ((System.Drawing.Image)(resources.GetObject("ribbonButton11.SmallImage")));
             this.ribbonButton11.Text = "ribbonButton11";
             // 
-            // plot
-            // 
-            this.plot.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.plot.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.plot.Location = new System.Drawing.Point(0, 147);
-            this.plot.Name = "plot";
-            this.plot.PanCursor = System.Windows.Forms.Cursors.Hand;
-            this.plot.Size = new System.Drawing.Size(868, 348);
-            this.plot.TabIndex = 27;
-            this.plot.Text = "plot2";
-            this.plot.ZoomHorizontalCursor = System.Windows.Forms.Cursors.SizeWE;
-            this.plot.ZoomRectangleCursor = System.Windows.Forms.Cursors.SizeNWSE;
-            this.plot.ZoomVerticalCursor = System.Windows.Forms.Cursors.SizeNS;
-            // 
             // ribbonOrbOptionButton1
             // 
             this.ribbonOrbOptionButton1.Image = ((System.Drawing.Image)(resources.GetObject("ribbonOrbOptionButton1.Image")));
             this.ribbonOrbOptionButton1.SmallImage = ((System.Drawing.Image)(resources.GetObject("ribbonOrbOptionButton1.SmallImage")));
             this.ribbonOrbOptionButton1.Text = "ribbonOrbOptionButton1";
             // 
+            // splitContainer1
+            // 
+            this.splitContainer1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.splitContainer1.Location = new System.Drawing.Point(0, 147);
+            this.splitContainer1.Name = "splitContainer1";
+            // 
+            // splitContainer1.Panel1
+            // 
+            this.splitContainer1.Panel1.Controls.Add(this.listView1);
+            // 
+            // splitContainer1.Panel2
+            // 
+            this.splitContainer1.Panel2.Controls.Add(this.plot);
+            this.splitContainer1.Size = new System.Drawing.Size(868, 348);
+            this.splitContainer1.SplitterDistance = 110;
+            this.splitContainer1.TabIndex = 29;
+            // 
+            // listView1
+            // 
+            this.listView1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.listView1.Items.AddRange(new System.Windows.Forms.ListViewItem[] {
+            listViewItem1,
+            listViewItem2});
+            this.listView1.Location = new System.Drawing.Point(0, 0);
+            this.listView1.Name = "listView1";
+            this.listView1.Size = new System.Drawing.Size(110, 348);
+            this.listView1.TabIndex = 0;
+            this.listView1.UseCompatibleStateImageBehavior = false;
+            this.listView1.View = System.Windows.Forms.View.List;
+            this.listView1.View = System.Windows.Forms.View.Details;
+            this.listView1.Bounds = new System.Drawing.Rectangle(new System.Drawing.Point(10, 10), new System.Drawing.Size(300, 200));
+            this.listView1.Columns.Add("Tempo", -2, System.Windows.Forms.HorizontalAlignment.Center);
+            this.listView1.Columns.Add("Dados", -2, System.Windows.Forms.HorizontalAlignment.Center);
+            this.listView1.GridLines = true;
+            // 
+            // plot
+            // 
+            this.plot.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.plot.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.plot.Location = new System.Drawing.Point(0, 0);
+            this.plot.Name = "plot";
+            this.plot.PanCursor = System.Windows.Forms.Cursors.Hand;
+            this.plot.Size = new System.Drawing.Size(754, 348);
+            this.plot.TabIndex = 28;
+            this.plot.Text = "plot2";
+            this.plot.ZoomHorizontalCursor = System.Windows.Forms.Cursors.SizeWE;
+            this.plot.ZoomRectangleCursor = System.Windows.Forms.Cursors.SizeNWSE;
+            this.plot.ZoomVerticalCursor = System.Windows.Forms.Cursors.SizeNS;
+            // 
             // Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(868, 495);
-            this.Controls.Add(this.plot);
+            this.Controls.Add(this.splitContainer1);
             this.Controls.Add(this.ribbonMain);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
@@ -448,6 +491,10 @@
             this.Text = "Sistema de Previsão Utilizando Lógica Fuzzy - SPULF";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.Main_Load);
+            this.splitContainer1.Panel1.ResumeLayout(false);
+            this.splitContainer1.Panel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).EndInit();
+            this.splitContainer1.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -500,7 +547,6 @@
         private System.Windows.Forms.RibbonButton ribbonButton10;
         private System.Windows.Forms.RibbonSeparator ribbonSeparator9;
         private System.Windows.Forms.Ribbon ribbonMain;
-        private OxyPlot.WindowsForms.PlotView plot;
         private System.Windows.Forms.RibbonOrbOptionButton ribbonOrbOptionButton1;
         private System.Windows.Forms.RibbonLabel ribbonLabel1;
         private System.Windows.Forms.RibbonLabel ribbonLabel2;
@@ -508,5 +554,8 @@
         private System.Windows.Forms.RibbonLabel ribbonLabel4;
         private System.Windows.Forms.RibbonLabel ribbonLabel5;
         private System.Windows.Forms.RibbonButton ribbonButton11;
+        private System.Windows.Forms.SplitContainer splitContainer1;
+        private System.Windows.Forms.ListView listView1;
+        private OxyPlot.WindowsForms.PlotView plot;
     }
 }

@@ -91,12 +91,6 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="TESTE.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="TESTE.Designer.cs">
-      <DependentUpon>TESTE.cs</DependentUpon>
-    </Compile>
     <Compile Include="View Login.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -108,12 +102,6 @@
     </Compile>
     <Compile Include="ViewCadastro.Designer.cs">
       <DependentUpon>ViewCadastro.cs</DependentUpon>
-    </Compile>
-    <Compile Include="ViewMenu.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="ViewMenu.Designer.cs">
-      <DependentUpon>ViewMenu.cs</DependentUpon>
     </Compile>
     <EmbeddedResource Include="Main.resx">
       <DependentUpon>Main.cs</DependentUpon>
@@ -128,17 +116,11 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
-    <EmbeddedResource Include="TESTE.resx">
-      <DependentUpon>TESTE.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="View Login.resx">
       <DependentUpon>View Login.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ViewCadastro.resx">
       <DependentUpon>ViewCadastro.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="ViewMenu.resx">
-      <DependentUpon>ViewMenu.cs</DependentUpon>
     </EmbeddedResource>
     <Fakes Include="Fakes\Negocios.fakes" />
     <None Include="Properties\Settings.settings">

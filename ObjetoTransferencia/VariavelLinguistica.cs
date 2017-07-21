@@ -14,5 +14,4 @@ namespace ObjetoTransferencia
         public int QntMS { get; set; }
         public List<Ponto> FuzzySet { get; set; }
     }
-
 }

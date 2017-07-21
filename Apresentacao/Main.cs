@@ -18,15 +18,13 @@ using OxyPlot.Axes;
 namespace Apresentacao
 {
     public partial class Main : Form
-    {
-        Login logado;
+    {        
         List<Item> ItensAtualizados;
 
         public Main()
-        {
-            
+        {            
             InitializeComponent();
-            var myModel = new PlotModel { Title = "Exemplo" };
+            var myModel = new PlotModel { Title = "Gráfico" };
             myModel.Series.Add(new LineSeries());
                    
             this.plot.Model = myModel;
@@ -42,6 +40,10 @@ namespace Apresentacao
             var linearAxis2 = new LinearAxis();
             linearAxis2.Position = AxisPosition.Bottom;
             myModell.Axes.Add(linearAxis2);
+            linearAxis1.MajorGridlineStyle = LineStyle.Solid;
+            linearAxis1.MinorGridlineStyle = LineStyle.Solid;
+            linearAxis2.MajorGridlineStyle = LineStyle.Solid;
+            linearAxis2.MinorGridlineStyle = LineStyle.Solid;
 
 
             //criação do modelo e configuração do gráfico
@@ -97,7 +99,7 @@ namespace Apresentacao
 
         private void button3_Click(object sender, EventArgs e)
         {
-            // DADOOS
+            // DADOS
 
             List<Item> listaDados = new List<Item>();
 
@@ -202,6 +204,7 @@ namespace Apresentacao
         {
             LerCSV();
             AtualizaPlot();
+            AtualizaListView();
         }
 
         private void ribbonButton3_Click(object sender, EventArgs e)
@@ -319,9 +322,15 @@ namespace Apresentacao
             plot.Model.InvalidatePlot(true);
 
         }
+        private void AtualizaListView()
+        {
+            
 
-
-
-
+            foreach (var item in ItensAtualizados)
+            {
+                ListViewItem a = new ListViewItem(new[] { item.Tempo.ToString(), item.DadosOriginais.ToString() });
+                listView1.Items.Add(a);
+            }
+        }
     }
 }

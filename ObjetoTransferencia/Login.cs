@@ -13,7 +13,5 @@ namespace ObjetoTransferencia
         public string Email { get; set; }
         public string Senha { get; set; }
         public string InstituicaoOrigem { get; set; }
-
-
     }
 }
