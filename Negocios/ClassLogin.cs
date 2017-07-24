@@ -70,12 +70,5 @@ namespace Negocios
                 throw new Exception("Não foi possível efetuar a consulta. Detalhes:" + exception.Message);
             }
         }
-
-
-
-
-
-
-
     }
 }

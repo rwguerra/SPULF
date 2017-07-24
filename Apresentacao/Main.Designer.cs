@@ -141,6 +141,7 @@
             this.ribbonTab1.Panels.Add(this.ribbonPanel3);
             this.ribbonTab1.Panels.Add(this.ribbonPanel11);
             this.ribbonTab1.Text = "Previsão";
+            this.ribbonTab1.ActiveChanged += new System.EventHandler(this.ribbonTab1_ActiveChanged);
             // 
             // ribbonPanel1
             // 
@@ -313,6 +314,7 @@
             // 
             this.ribbonTab2.Panels.Add(this.ribbonPanel4);
             this.ribbonTab2.Text = "Ferramentas";
+            this.ribbonTab2.ActiveChanged += new System.EventHandler(this.ribbonTab2_ActiveChanged);
             // 
             // ribbonPanel4
             // 
@@ -338,6 +340,7 @@
             // 
             this.ribbonTab3.Panels.Add(this.ribbonPanel6);
             this.ribbonTab3.Text = "Histórico";
+            this.ribbonTab3.ActiveChanged += new System.EventHandler(this.ribbonTab3_ActiveChanged);
             // 
             // ribbonPanel6
             // 
@@ -447,6 +450,7 @@
             // listView1
             // 
             this.listView1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.listView1.GridLines = true;
             this.listView1.Items.AddRange(new System.Windows.Forms.ListViewItem[] {
             listViewItem1,
             listViewItem2});
@@ -455,7 +459,10 @@
             this.listView1.Size = new System.Drawing.Size(110, 348);
             this.listView1.TabIndex = 0;
             this.listView1.UseCompatibleStateImageBehavior = false;
-            this.listView1.View = System.Windows.Forms.View.List;
+            this.listView1.View = System.Windows.Forms.View.Details;
+            //
+            //listview1 mudanças
+            //
             this.listView1.View = System.Windows.Forms.View.Details;
             this.listView1.Bounds = new System.Drawing.Rectangle(new System.Drawing.Point(10, 10), new System.Drawing.Size(300, 200));
             this.listView1.Columns.Add("Tempo", -2, System.Windows.Forms.HorizontalAlignment.Center);

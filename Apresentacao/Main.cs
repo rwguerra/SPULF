@@ -332,5 +332,23 @@ namespace Apresentacao
                 listView1.Items.Add(a);
             }
         }
+
+        private void ribbonTab3_ActiveChanged(object sender, EventArgs e)
+        {
+            plot.Visible = false;
+            listView1.Visible = false;
+        }
+
+        private void ribbonTab2_ActiveChanged(object sender, EventArgs e)
+        {
+            plot.Visible = true;
+            listView1.Visible = true;
+        }
+
+        private void ribbonTab1_ActiveChanged(object sender, EventArgs e)
+        {
+            plot.Visible = true;
+            listView1.Visible = true;
+        }
     }
 }
